@@ -1,0 +1,3888 @@
+{
+    "meta": {
+        "apiVersion": "2.0.0",
+        "title": "Wizarding World Cinematic Universe — Movies API",
+        "description": "Enterprise-grade, AI-ready, production database for all Harry Potter and Fantastic Beasts films.",
+        "totalMovies": 11,
+        "sagas": [
+            "Harry Potter",
+            "Fantastic Beasts"
+        ],
+        "lastUpdated": "2026-05-14T00:00:00Z",
+        "license": "MIT",
+        "baseImageUrl": "https://wizarding-api.vercel.app/images/movies",
+        "endpoints": {
+            "movies": "/api/movies",
+            "movieById": "/api/movies/:id",
+            "trending": "/api/movies/trending",
+            "popular": "/api/movies/popular",
+            "timeline": "/api/movies/timeline",
+            "search": "/api/movies/search?q=",
+            "recommendations": "/api/movies/recommendations"
+        }
+    },
+    "movies": [
+        {
+            "id": "hp-wwcu-001",
+            "slug": "fantastic-beasts-and-where-to-find-them",
+            "title": "Fantastic Beasts and Where to Find Them",
+            "originalTitle": "Fantastic Beasts and Where to Find Them",
+            "tagline": "Adventure begins at the case.",
+            "overview": "The adventures of writer Newt Scamander in New York's secret community of witches and wizards seventy years before Harry Potter reads his book.",
+            "storyline": "In 1926, Newt Scamander arrives in New York with a battered suitcase containing magical creatures. When the case is accidentally opened, several creatures escape into the city. Newt teams up with No-Maj Jacob Kowalski, and sisters Tina and Queenie Goldstein to recapture them — but a far darker threat lurks beneath New York's streets.",
+            "synopsis": "Magizoologist Newt Scamander arrives in Jazz-Age New York with a magical menagerie in his case. A mix-up with a No-Maj baker and a run-in with MACUSA auror Porpentina Goldstein sets off a chain of events that exposes a shadowy force threatening both the magical and non-magical worlds, overseen by the sinister Percival Graves — who is revealed to be the dark wizard Gellert Grindelwald in disguise.",
+            "releaseDate": "2016-11-18",
+            "runtime": 133,
+            "status": "Released",
+            "chronologyOrder": 1,
+            "timelineYear": "1926",
+            "universeEra": "Pre-Hogwarts Era",
+            "phase": "Fantastic Beasts Trilogy",
+            "saga": "Fantastic Beasts",
+            "sagaOrder": 1,
+            "genres": [
+                "Fantasy",
+                "Adventure",
+                "Mystery"
+            ],
+            "subGenres": [
+                "Magical Realism",
+                "Period Drama",
+                "Creature Feature"
+            ],
+            "themes": [
+                "Belonging",
+                "Prejudice",
+                "Magical Conservation",
+                "Identity",
+                "Fear of the Other"
+            ],
+            "tone": [
+                "Whimsical",
+                "Adventurous",
+                "Warm",
+                "Mysterious"
+            ],
+            "keywords": [
+                "1920s",
+                "New York",
+                "MACUSA",
+                "Obscurus",
+                "No-Maj",
+                "Magizoology",
+                "Grindelwald",
+                "Suitcase",
+                "Jazz Age",
+                "Magical Creatures"
+            ],
+            "language": [
+                "en"
+            ],
+            "budget": "$180,000,000",
+            "revenue": "$814,037,575",
+            "boxOffice": {
+                "domestic": "$234,037,575",
+                "international": "$580,000,000",
+                "worldwide": "$814,037,575",
+                "openingWeekend": "$74,403,387"
+            },
+            "popularityScore": 87.4,
+            "trendingScore": 72.1,
+            "fanRating": 8.1,
+            "criticRating": 74,
+            "ageRating": "PG-13",
+            "ratings": {
+                "imdb": 7.3,
+                "rottenTomatoes": 74,
+                "metacritic": 66,
+                "audienceScore": 79
+            },
+            "production": {
+                "studio": "Warner Bros. Pictures",
+                "distributor": "Warner Bros. Pictures",
+                "country": "United Kingdom / United States",
+                "filmingLocations": [
+                    "Liverpool Street Station, London, England",
+                    "St. Pancras Renaissance Hotel, London",
+                    "Oxford Street, London",
+                    "Warner Bros. Studios, Leavesden, Hertfordshire"
+                ],
+                "productionCompanies": [
+                    "Heyday Films",
+                    "Warner Bros. Pictures"
+                ]
+            },
+            "media": {
+                "poster": "https://wizarding-api.vercel.app/images/movies/fantastic-beasts-1/poster.jpg",
+                "backdrop": "https://wizarding-api.vercel.app/images/movies/fantastic-beasts-1/backdrop.jpg",
+                "banner": "https://wizarding-api.vercel.app/images/movies/fantastic-beasts-1/banner.jpg",
+                "logo": "https://wizarding-api.vercel.app/images/movies/fantastic-beasts-1/logo.png",
+                "trailer": "https://wizarding-api.vercel.app/trailers/fantastic-beasts-1-official-trailer.mp4",
+                "teaser": "https://wizarding-api.vercel.app/trailers/fantastic-beasts-1-teaser.mp4",
+                "gallery": [
+                    "https://wizarding-api.vercel.app/images/movies/fantastic-beasts-1/gallery/01.jpg",
+                    "https://wizarding-api.vercel.app/images/movies/fantastic-beasts-1/gallery/02.jpg",
+                    "https://wizarding-api.vercel.app/images/movies/fantastic-beasts-1/gallery/03.jpg",
+                    "https://wizarding-api.vercel.app/images/movies/fantastic-beasts-1/gallery/04.jpg"
+                ]
+            },
+            "streaming": {
+                "platforms": [
+                    "Max",
+                    "Amazon Prime Video"
+                ],
+                "availability": "Global",
+                "subscriptionType": "Subscription"
+            },
+            "cast": [
+                {
+                    "actorId": "act-001",
+                    "name": "Eddie Redmayne",
+                    "character": "Newt Scamander",
+                    "role": "Lead"
+                },
+                {
+                    "actorId": "act-002",
+                    "name": "Katherine Waterston",
+                    "character": "Tina Goldstein",
+                    "role": "Lead"
+                },
+                {
+                    "actorId": "act-003",
+                    "name": "Dan Fogler",
+                    "character": "Jacob Kowalski",
+                    "role": "Lead"
+                },
+                {
+                    "actorId": "act-004",
+                    "name": "Alison Sudol",
+                    "character": "Queenie Goldstein",
+                    "role": "Supporting"
+                },
+                {
+                    "actorId": "act-005",
+                    "name": "Colin Farrell",
+                    "character": "Percival Graves",
+                    "role": "Supporting"
+                },
+                {
+                    "actorId": "act-006",
+                    "name": "Ezra Miller",
+                    "character": "Credence Barebone",
+                    "role": "Supporting"
+                },
+                {
+                    "actorId": "act-007",
+                    "name": "Samantha Morton",
+                    "character": "Mary Lou Barebone",
+                    "role": "Supporting"
+                },
+                {
+                    "actorId": "act-008",
+                    "name": "Johnny Depp",
+                    "character": "Gellert Grindelwald",
+                    "role": "Cameo"
+                }
+            ],
+            "directors": [
+                {
+                    "name": "David Yates",
+                    "id": "dir-001"
+                }
+            ],
+            "writers": [
+                {
+                    "name": "J.K. Rowling",
+                    "id": "wri-001",
+                    "role": "Screenplay"
+                }
+            ],
+            "producers": [
+                {
+                    "name": "David Heyman",
+                    "id": "pro-001"
+                },
+                {
+                    "name": "J.K. Rowling",
+                    "id": "pro-002"
+                },
+                {
+                    "name": "Steve Kloves",
+                    "id": "pro-003"
+                },
+                {
+                    "name": "Lionel Wigram",
+                    "id": "pro-004"
+                }
+            ],
+            "musicComposers": [
+                {
+                    "name": "James Newton Howard",
+                    "id": "mus-001"
+                }
+            ],
+            "cinematographers": [
+                {
+                    "name": "Philippe Rousselot",
+                    "id": "cin-001"
+                }
+            ],
+            "editors": [
+                {
+                    "name": "Mark Day",
+                    "id": "edi-001"
+                }
+            ],
+            "awards": [
+                {
+                    "ceremony": "Academy Awards",
+                    "year": 2017,
+                    "category": "Best Costume Design",
+                    "result": "Won"
+                },
+                {
+                    "ceremony": "BAFTA Awards",
+                    "year": 2017,
+                    "category": "Best Production Design",
+                    "result": "Nominated"
+                }
+            ],
+            "featuredCharacters": [
+                "Newt Scamander",
+                "Tina Goldstein",
+                "Jacob Kowalski",
+                "Queenie Goldstein",
+                "Credence Barebone",
+                "Gellert Grindelwald",
+                "Percival Graves"
+            ],
+            "featuredSpells": [
+                "Accio",
+                "Revelio",
+                "Reparo",
+                "Obliviate",
+                "Expelliarmus",
+                "Lumos",
+                "Legilimens"
+            ],
+            "featuredArtifacts": [
+                "Newt's Magical Suitcase",
+                "MACUSA Identity Amulet",
+                "Grindelwald's Wand"
+            ],
+            "featuredLocations": [
+                "New York City",
+                "MACUSA Headquarters",
+                "Newt's Suitcase Interior",
+                "The Blind Pig Speakeasy"
+            ],
+            "featuredCreatures": [
+                "Niffler",
+                "Bowtruckle (Pickett)",
+                "Thunderbird (Frank)",
+                "Demiguise (Dougal)",
+                "Occamy",
+                "Erumpent",
+                "Swooping Evil",
+                "Obscurus"
+            ],
+            "relatedBooks": [
+                {
+                    "title": "Fantastic Beasts and Where to Find Them",
+                    "author": "Newt Scamander / J.K. Rowling",
+                    "isbn": "978-0545850568"
+                }
+            ],
+            "quotes": [
+                {
+                    "character": "Newt Scamander",
+                    "quote": "My philosophy is that worrying means you suffer twice."
+                },
+                {
+                    "character": "Newt Scamander",
+                    "quote": "I'm not really a people person."
+                },
+                {
+                    "character": "Jacob Kowalski",
+                    "quote": "Are you a seeker? Because I know what I'm feeling right now."
+                }
+            ],
+            "soundtracks": [
+                {
+                    "title": "Main Theme",
+                    "composer": "James Newton Howard",
+                    "duration": "3:24"
+                },
+                {
+                    "title": "Newt Says Goodbye to the Beasts",
+                    "composer": "James Newton Howard",
+                    "duration": "4:51"
+                },
+                {
+                    "title": "MACUSA",
+                    "composer": "James Newton Howard",
+                    "duration": "2:17"
+                }
+            ],
+            "watchStats": {
+                "views": 38400000,
+                "likes": 2910000,
+                "favorites": 1870000,
+                "watchlistAdds": 4200000
+            },
+            "connections": {
+                "prequel": null,
+                "sequel": "hp-wwcu-002",
+                "spinOffs": [],
+                "relatedMovies": [
+                    "hp-wwcu-002",
+                    "hp-wwcu-003"
+                ]
+            },
+            "aiTags": [
+                "creature-lover",
+                "period-piece",
+                "magical-adventure",
+                "mystery-thriller",
+                "ensemble-cast",
+                "world-building",
+                "family-friendly"
+            ],
+            "emotionTags": [
+                "wonder",
+                "warmth",
+                "excitement",
+                "humor",
+                "tension",
+                "heartbreak"
+            ],
+            "cinematicStyle": [
+                "Golden-Age Hollywood",
+                "Art Deco Aesthetic",
+                "Creature-Driven Spectacle"
+            ],
+            "sceneCategories": [
+                "Action",
+                "Creature Chase",
+                "World-Building",
+                "Comedy Relief",
+                "Dark Revelation"
+            ],
+            "canonStatus": "Canon"
+        },
+        {
+            "id": "hp-wwcu-002",
+            "slug": "fantastic-beasts-the-crimes-of-grindelwald",
+            "title": "Fantastic Beasts: The Crimes of Grindelwald",
+            "originalTitle": "Fantastic Beasts: The Crimes of Grindelwald",
+            "tagline": "Protect the future. Reveal the truth.",
+            "overview": "Gellert Grindelwald has escaped custody and is gathering followers. Newt Scamander and Albus Dumbledore must work together to prevent Grindelwald's vision of wizarding supremacy.",
+            "storyline": "After escaping MACUSA's custody, the dark wizard Grindelwald rallies his loyal forces in Paris. Dumbledore, unable to move against his old friend due to a blood pact, enlists Newt Scamander. The film reveals shocking secrets about Credence Barebone's true identity and the full scope of Grindelwald's ambitions.",
+            "synopsis": "Grindelwald orchestrates a mass escape and retreats to Europe, rallying pure-blood supremacists under a vision of magical dominance over No-Majs. Newt travels to Paris with Tina and Jacob, accompanied by Theseus Scamander and Leta Lestrange. A catastrophic rally at the Lestrange family mausoleum ends with Grindelwald's chilling declaration and the revelation that Credence is Aurelius Dumbledore.",
+            "releaseDate": "2018-11-16",
+            "runtime": 134,
+            "status": "Released",
+            "chronologyOrder": 2,
+            "timelineYear": "1927",
+            "universeEra": "Pre-Hogwarts Era",
+            "phase": "Fantastic Beasts Trilogy",
+            "saga": "Fantastic Beasts",
+            "sagaOrder": 2,
+            "genres": [
+                "Fantasy",
+                "Adventure",
+                "Thriller"
+            ],
+            "subGenres": [
+                "Dark Fantasy",
+                "Political Drama",
+                "Mystery"
+            ],
+            "themes": [
+                "Pureblood Supremacy",
+                "Loyalty",
+                "Truth vs. Deception",
+                "Family Secrets",
+                "Sacrifice"
+            ],
+            "tone": [
+                "Dark",
+                "Epic",
+                "Mysterious",
+                "Tragic"
+            ],
+            "keywords": [
+                "Paris",
+                "Grindelwald",
+                "Dumbledore",
+                "Blood Pact",
+                "Credence",
+                "Lestrange",
+                "Muggle Supremacy",
+                "Niffler",
+                "Hogwarts Flashback"
+            ],
+            "language": [
+                "en",
+                "fr"
+            ],
+            "budget": "$200,000,000",
+            "revenue": "$654,855,901",
+            "boxOffice": {
+                "domestic": "$159,555,901",
+                "international": "$495,300,000",
+                "worldwide": "$654,855,901",
+                "openingWeekend": "$62,161,176"
+            },
+            "popularityScore": 78.2,
+            "trendingScore": 61.5,
+            "fanRating": 7.2,
+            "criticRating": 36,
+            "ageRating": "PG-13",
+            "ratings": {
+                "imdb": 6.5,
+                "rottenTomatoes": 36,
+                "metacritic": 52,
+                "audienceScore": 63
+            },
+            "production": {
+                "studio": "Warner Bros. Pictures",
+                "distributor": "Warner Bros. Pictures",
+                "country": "United Kingdom / United States",
+                "filmingLocations": [
+                    "Lacoste, Vaucluse, France",
+                    "Warner Bros. Studios, Leavesden, Hertfordshire",
+                    "Highclere Castle, Hampshire, England",
+                    "Le Palais Garnier, Paris, France"
+                ],
+                "productionCompanies": [
+                    "Heyday Films",
+                    "Warner Bros. Pictures"
+                ]
+            },
+            "media": {
+                "poster": "https://wizarding-api.vercel.app/images/movies/fantastic-beasts-2/poster.jpg",
+                "backdrop": "https://wizarding-api.vercel.app/images/movies/fantastic-beasts-2/backdrop.jpg",
+                "banner": "https://wizarding-api.vercel.app/images/movies/fantastic-beasts-2/banner.jpg",
+                "logo": "https://wizarding-api.vercel.app/images/movies/fantastic-beasts-2/logo.png",
+                "trailer": "https://wizarding-api.vercel.app/trailers/fantastic-beasts-2-official-trailer.mp4",
+                "teaser": "https://wizarding-api.vercel.app/trailers/fantastic-beasts-2-teaser.mp4",
+                "gallery": [
+                    "https://wizarding-api.vercel.app/images/movies/fantastic-beasts-2/gallery/01.jpg",
+                    "https://wizarding-api.vercel.app/images/movies/fantastic-beasts-2/gallery/02.jpg",
+                    "https://wizarding-api.vercel.app/images/movies/fantastic-beasts-2/gallery/03.jpg"
+                ]
+            },
+            "streaming": {
+                "platforms": [
+                    "Max",
+                    "Amazon Prime Video"
+                ],
+                "availability": "Global",
+                "subscriptionType": "Subscription"
+            },
+            "cast": [
+                {
+                    "actorId": "act-001",
+                    "name": "Eddie Redmayne",
+                    "character": "Newt Scamander",
+                    "role": "Lead"
+                },
+                {
+                    "actorId": "act-009",
+                    "name": "Jude Law",
+                    "character": "Albus Dumbledore",
+                    "role": "Lead"
+                },
+                {
+                    "actorId": "act-008",
+                    "name": "Johnny Depp",
+                    "character": "Gellert Grindelwald",
+                    "role": "Lead"
+                },
+                {
+                    "actorId": "act-006",
+                    "name": "Ezra Miller",
+                    "character": "Credence Barebone",
+                    "role": "Supporting"
+                },
+                {
+                    "actorId": "act-002",
+                    "name": "Katherine Waterston",
+                    "character": "Tina Goldstein",
+                    "role": "Supporting"
+                },
+                {
+                    "actorId": "act-003",
+                    "name": "Dan Fogler",
+                    "character": "Jacob Kowalski",
+                    "role": "Supporting"
+                },
+                {
+                    "actorId": "act-010",
+                    "name": "Zoë Kravitz",
+                    "character": "Leta Lestrange",
+                    "role": "Supporting"
+                },
+                {
+                    "actorId": "act-011",
+                    "name": "Callum Turner",
+                    "character": "Theseus Scamander",
+                    "role": "Supporting"
+                },
+                {
+                    "actorId": "act-012",
+                    "name": "Claudia Kim",
+                    "character": "Nagini",
+                    "role": "Supporting"
+                }
+            ],
+            "directors": [
+                {
+                    "name": "David Yates",
+                    "id": "dir-001"
+                }
+            ],
+            "writers": [
+                {
+                    "name": "J.K. Rowling",
+                    "id": "wri-001",
+                    "role": "Screenplay"
+                }
+            ],
+            "producers": [
+                {
+                    "name": "David Heyman",
+                    "id": "pro-001"
+                },
+                {
+                    "name": "J.K. Rowling",
+                    "id": "pro-002"
+                },
+                {
+                    "name": "Steve Kloves",
+                    "id": "pro-003"
+                },
+                {
+                    "name": "Lionel Wigram",
+                    "id": "pro-004"
+                }
+            ],
+            "musicComposers": [
+                {
+                    "name": "James Newton Howard",
+                    "id": "mus-001"
+                }
+            ],
+            "cinematographers": [
+                {
+                    "name": "Philippe Rousselot",
+                    "id": "cin-001"
+                }
+            ],
+            "editors": [
+                {
+                    "name": "Mark Day",
+                    "id": "edi-001"
+                }
+            ],
+            "awards": [
+                {
+                    "ceremony": "Saturn Awards",
+                    "year": 2019,
+                    "category": "Best Fantasy Film",
+                    "result": "Nominated"
+                }
+            ],
+            "featuredCharacters": [
+                "Newt Scamander",
+                "Albus Dumbledore",
+                "Gellert Grindelwald",
+                "Credence Barebone",
+                "Nagini",
+                "Leta Lestrange",
+                "Nicolas Flamel"
+            ],
+            "featuredSpells": [
+                "Accio",
+                "Revelio",
+                "Protego",
+                "Episkey",
+                "Legilimens",
+                "Crucio",
+                "Avada Kedavra"
+            ],
+            "featuredArtifacts": [
+                "Blood Pact Vial",
+                "Grindelwald's Skull Hookah",
+                "Deathly Hallows Symbol"
+            ],
+            "featuredLocations": [
+                "Paris Catacombs",
+                "Lestrange Mausoleum",
+                "Hogwarts (Flashback)",
+                "Ministry of Magic Paris",
+                "Nicolas Flamel's House"
+            ],
+            "featuredCreatures": [
+                "Niffler",
+                "Bowtruckle (Pickett)",
+                "Zouwu",
+                "Kelpie",
+                "Thestral"
+            ],
+            "relatedBooks": [
+                {
+                    "title": "Fantastic Beasts: The Crimes of Grindelwald — The Original Screenplay",
+                    "author": "J.K. Rowling",
+                    "isbn": "978-1338263893"
+                }
+            ],
+            "quotes": [
+                {
+                    "character": "Albus Dumbledore",
+                    "quote": "Do you know why I admire you, Newt? You don't seek power or popularity. You simply ask: is the thing right?"
+                },
+                {
+                    "character": "Gellert Grindelwald",
+                    "quote": "Do you think Dumbledore will mourn for you?"
+                },
+                {
+                    "character": "Leta Lestrange",
+                    "quote": "I love you, Theseus."
+                }
+            ],
+            "soundtracks": [
+                {
+                    "title": "Grindelwald's Escape",
+                    "composer": "James Newton Howard",
+                    "duration": "4:02"
+                },
+                {
+                    "title": "The Crimes of Grindelwald",
+                    "composer": "James Newton Howard",
+                    "duration": "5:18"
+                },
+                {
+                    "title": "Leta's Sacrifice",
+                    "composer": "James Newton Howard",
+                    "duration": "3:47"
+                }
+            ],
+            "watchStats": {
+                "views": 27600000,
+                "likes": 1740000,
+                "favorites": 1020000,
+                "watchlistAdds": 2900000
+            },
+            "connections": {
+                "prequel": "hp-wwcu-001",
+                "sequel": "hp-wwcu-003",
+                "spinOffs": [],
+                "relatedMovies": [
+                    "hp-wwcu-001",
+                    "hp-wwcu-003"
+                ]
+            },
+            "aiTags": [
+                "dark-fantasy",
+                "political-intrigue",
+                "villain-origin",
+                "sequel",
+                "lore-heavy",
+                "magic-system-deep-dive"
+            ],
+            "emotionTags": [
+                "tension",
+                "tragedy",
+                "awe",
+                "confusion",
+                "grief"
+            ],
+            "cinematicStyle": [
+                "Gothic European",
+                "Dark Atmospheric",
+                "Grand Set Design"
+            ],
+            "sceneCategories": [
+                "Political Rally",
+                "Creature Encounter",
+                "Lore Exposition",
+                "Sacrifice",
+                "Shocking Reveal"
+            ],
+            "canonStatus": "Canon"
+        },
+        {
+            "id": "hp-wwcu-003",
+            "slug": "fantastic-beasts-the-secrets-of-dumbledore",
+            "title": "Fantastic Beasts: The Secrets of Dumbledore",
+            "originalTitle": "Fantastic Beasts: The Secrets of Dumbledore",
+            "tagline": "The future of the wizarding world rests in their hands.",
+            "overview": "Albus Dumbledore gives Newt Scamander a mission to thwart Grindelwald's bid to seize control of the wizarding world — and he must break the blood oath first.",
+            "storyline": "With Grindelwald gaining momentum and supporters within wizarding governments worldwide, Dumbledore assembles an eclectic team including Newt, Jacob, Theseus, and Hogwarts professor Eugenia to outmaneuver him. The mission culminates in Bhutan at the Kama elections, where the Qilin — a magical creature of prophetic purity — plays a decisive role.",
+            "synopsis": "Grindelwald maneuvers for control of the International Confederation of Wizards by manipulating a Qilin prophecy. Dumbledore, freed from his blood pact, ultimately confronts his former lover. Credence, revealed as Aurelius Dumbledore, is offered redemption. The team's fractured, deliberately unpredictable mission defeats Grindelwald's rigged election and restores hope to the wizarding world.",
+            "releaseDate": "2022-04-08",
+            "runtime": 142,
+            "status": "Released",
+            "chronologyOrder": 3,
+            "timelineYear": "1932",
+            "universeEra": "Pre-Hogwarts Era",
+            "phase": "Fantastic Beasts Trilogy",
+            "saga": "Fantastic Beasts",
+            "sagaOrder": 3,
+            "genres": [
+                "Fantasy",
+                "Adventure",
+                "Action"
+            ],
+            "subGenres": [
+                "Political Fantasy",
+                "Ensemble Adventure",
+                "Coming-of-Age Prequel"
+            ],
+            "themes": [
+                "Truth",
+                "Leadership",
+                "Redemption",
+                "Love & Loss",
+                "Moral Courage"
+            ],
+            "tone": [
+                "Hopeful",
+                "Epic",
+                "Bittersweet",
+                "Adventurous"
+            ],
+            "keywords": [
+                "Qilin",
+                "Bhutan",
+                "Election",
+                "Blood Pact Broken",
+                "Dumbledore Secrets",
+                "Credence Redemption",
+                "Hogwarts",
+                "German Ministry"
+            ],
+            "language": [
+                "en",
+                "de"
+            ],
+            "budget": "$200,000,000",
+            "revenue": "$407,186,736",
+            "boxOffice": {
+                "domestic": "$93,486,736",
+                "international": "$313,700,000",
+                "worldwide": "$407,186,736",
+                "openingWeekend": "$43,800,000"
+            },
+            "popularityScore": 71.3,
+            "trendingScore": 55.0,
+            "fanRating": 7.5,
+            "criticRating": 47,
+            "ageRating": "PG-13",
+            "ratings": {
+                "imdb": 6.2,
+                "rottenTomatoes": 47,
+                "metacritic": 48,
+                "audienceScore": 71
+            },
+            "production": {
+                "studio": "Warner Bros. Pictures",
+                "distributor": "Warner Bros. Pictures",
+                "country": "United Kingdom / United States / Germany",
+                "filmingLocations": [
+                    "Filmstudio Babelsberg, Potsdam, Germany",
+                    "Lacock Abbey, Wiltshire, England",
+                    "Warner Bros. Studios, Leavesden, Hertfordshire",
+                    "Kakani, Nepal (Bhutan exteriors)"
+                ],
+                "productionCompanies": [
+                    "Heyday Films",
+                    "Warner Bros. Pictures"
+                ]
+            },
+            "media": {
+                "poster": "https://wizarding-api.vercel.app/images/movies/fantastic-beasts-3/poster.jpg",
+                "backdrop": "https://wizarding-api.vercel.app/images/movies/fantastic-beasts-3/backdrop.jpg",
+                "banner": "https://wizarding-api.vercel.app/images/movies/fantastic-beasts-3/banner.jpg",
+                "logo": "https://wizarding-api.vercel.app/images/movies/fantastic-beasts-3/logo.png",
+                "trailer": "https://wizarding-api.vercel.app/trailers/fantastic-beasts-3-official-trailer.mp4",
+                "teaser": "https://wizarding-api.vercel.app/trailers/fantastic-beasts-3-teaser.mp4",
+                "gallery": [
+                    "https://wizarding-api.vercel.app/images/movies/fantastic-beasts-3/gallery/01.jpg",
+                    "https://wizarding-api.vercel.app/images/movies/fantastic-beasts-3/gallery/02.jpg"
+                ]
+            },
+            "streaming": {
+                "platforms": [
+                    "Max",
+                    "Amazon Prime Video"
+                ],
+                "availability": "Global",
+                "subscriptionType": "Subscription"
+            },
+            "cast": [
+                {
+                    "actorId": "act-001",
+                    "name": "Eddie Redmayne",
+                    "character": "Newt Scamander",
+                    "role": "Lead"
+                },
+                {
+                    "actorId": "act-009",
+                    "name": "Jude Law",
+                    "character": "Albus Dumbledore",
+                    "role": "Lead"
+                },
+                {
+                    "actorId": "act-013",
+                    "name": "Mads Mikkelsen",
+                    "character": "Gellert Grindelwald",
+                    "role": "Lead"
+                },
+                {
+                    "actorId": "act-003",
+                    "name": "Dan Fogler",
+                    "character": "Jacob Kowalski",
+                    "role": "Supporting"
+                },
+                {
+                    "actorId": "act-006",
+                    "name": "Ezra Miller",
+                    "character": "Credence Barebone",
+                    "role": "Supporting"
+                },
+                {
+                    "actorId": "act-011",
+                    "name": "Callum Turner",
+                    "character": "Theseus Scamander",
+                    "role": "Supporting"
+                },
+                {
+                    "actorId": "act-004",
+                    "name": "Alison Sudol",
+                    "character": "Queenie Goldstein",
+                    "role": "Supporting"
+                },
+                {
+                    "actorId": "act-014",
+                    "name": "Jessica Williams",
+                    "character": "Eulalia 'Lally' Hicks",
+                    "role": "Supporting"
+                }
+            ],
+            "directors": [
+                {
+                    "name": "David Yates",
+                    "id": "dir-001"
+                }
+            ],
+            "writers": [
+                {
+                    "name": "J.K. Rowling",
+                    "id": "wri-001",
+                    "role": "Screenplay"
+                },
+                {
+                    "name": "Steve Kloves",
+                    "id": "wri-002",
+                    "role": "Screenplay"
+                }
+            ],
+            "producers": [
+                {
+                    "name": "David Heyman",
+                    "id": "pro-001"
+                },
+                {
+                    "name": "J.K. Rowling",
+                    "id": "pro-002"
+                },
+                {
+                    "name": "Steve Kloves",
+                    "id": "pro-003"
+                },
+                {
+                    "name": "Lionel Wigram",
+                    "id": "pro-004"
+                }
+            ],
+            "musicComposers": [
+                {
+                    "name": "James Newton Howard",
+                    "id": "mus-001"
+                }
+            ],
+            "cinematographers": [
+                {
+                    "name": "George Richmond",
+                    "id": "cin-002"
+                }
+            ],
+            "editors": [
+                {
+                    "name": "Mark Day",
+                    "id": "edi-001"
+                }
+            ],
+            "awards": [
+                {
+                    "ceremony": "Saturn Awards",
+                    "year": 2023,
+                    "category": "Best Fantasy Film",
+                    "result": "Nominated"
+                }
+            ],
+            "featuredCharacters": [
+                "Newt Scamander",
+                "Albus Dumbledore",
+                "Gellert Grindelwald",
+                "Credence Barebone",
+                "Jacob Kowalski",
+                "Queenie Goldstein",
+                "Eulalia Hicks"
+            ],
+            "featuredSpells": [
+                "Accio",
+                "Revelio",
+                "Protego Diabolica",
+                "Expelliarmus",
+                "Finite Incantatem"
+            ],
+            "featuredArtifacts": [
+                "Qilin",
+                "Blood Pact Vial (Destroyed)",
+                "Elder Wand (Referenced)"
+            ],
+            "featuredLocations": [
+                "Bhutan Mountains",
+                "Hogwarts",
+                "German Ministry of Magic",
+                "Nurmengard Castle",
+                "Newt's Suitcase"
+            ],
+            "featuredCreatures": [
+                "Qilin",
+                "Niffler",
+                "Bowtruckle (Pickett)",
+                "Manticore",
+                "Hogwarts Owls"
+            ],
+            "relatedBooks": [
+                {
+                    "title": "Fantastic Beasts: The Secrets of Dumbledore — The Complete Screenplay",
+                    "author": "J.K. Rowling & Steve Kloves",
+                    "isbn": "978-0702320514"
+                }
+            ],
+            "quotes": [
+                {
+                    "character": "Albus Dumbledore",
+                    "quote": "We can't keep fearing what we feel."
+                },
+                {
+                    "character": "Newt Scamander",
+                    "quote": "The world is a lot more manageable when you accept magic is real."
+                }
+            ],
+            "soundtracks": [
+                {
+                    "title": "The Qilin",
+                    "composer": "James Newton Howard",
+                    "duration": "3:55"
+                },
+                {
+                    "title": "Dumbledore's Army (Reprise)",
+                    "composer": "James Newton Howard",
+                    "duration": "4:22"
+                }
+            ],
+            "watchStats": {
+                "views": 19800000,
+                "likes": 1210000,
+                "favorites": 780000,
+                "watchlistAdds": 2100000
+            },
+            "connections": {
+                "prequel": "hp-wwcu-002",
+                "sequel": null,
+                "spinOffs": [],
+                "relatedMovies": [
+                    "hp-wwcu-001",
+                    "hp-wwcu-002",
+                    "hp-wwcu-005"
+                ]
+            },
+            "aiTags": [
+                "ensemble-heist",
+                "political-fantasy",
+                "character-redemption",
+                "villain-downfall",
+                "lore-heavy"
+            ],
+            "emotionTags": [
+                "hope",
+                "bittersweet",
+                "tension",
+                "warmth",
+                "melancholy"
+            ],
+            "cinematicStyle": [
+                "Global Epic",
+                "Warm Palette",
+                "Creature-Meets-Spy-Thriller"
+            ],
+            "sceneCategories": [
+                "Ensemble Mission",
+                "Creature Magic",
+                "Political Drama",
+                "Emotional Reunion",
+                "Final Confrontation"
+            ],
+            "canonStatus": "Canon"
+        },
+        {
+            "id": "hp-wwcu-004",
+            "slug": "harry-potter-and-the-sorcerers-stone",
+            "title": "Harry Potter and the Sorcerer's Stone",
+            "originalTitle": "Harry Potter and the Philosopher's Stone",
+            "tagline": "Let the magic begin.",
+            "overview": "An orphaned boy discovers on his 11th birthday that he is a wizard and begins his education at Hogwarts School of Witchcraft and Wizardry.",
+            "storyline": "Harry Potter has lived with his cruel Aunt Petunia, Uncle Vernon, and cousin Dudley since the death of his parents. On his 11th birthday, the giant Hagrid arrives to tell Harry he is a wizard. Harry enrolls at Hogwarts, makes lifelong friends, discovers the truth about his parents' death — and faces the mysterious threat of Voldemort's return.",
+            "synopsis": "Harry Potter arrives at Hogwarts, is sorted into Gryffindor House, and discovers a naturally gifted aptitude for Quidditch. He and his friends Ron Weasley and Hermione Granger uncover a mystery around the third-floor corridor, leading to the Philosopher's Stone — an artifact sought by the spirit of Lord Voldemort, who has latched onto the back of Professor Quirrell's head. Harry bravely confronts Quirrellmort and protects the Stone through the power of his mother's sacrificial love.",
+            "releaseDate": "2001-11-16",
+            "runtime": 152,
+            "status": "Released",
+            "chronologyOrder": 8,
+            "timelineYear": "1991–1992",
+            "universeEra": "The Golden Trio Era",
+            "phase": "Harry Potter Saga",
+            "saga": "Harry Potter",
+            "sagaOrder": 1,
+            "genres": [
+                "Fantasy",
+                "Adventure",
+                "Family"
+            ],
+            "subGenres": [
+                "Coming-of-Age",
+                "School Drama",
+                "Mystery"
+            ],
+            "themes": [
+                "Friendship",
+                "Bravery",
+                "Good vs. Evil",
+                "Love as Protection",
+                "Self-Discovery",
+                "Belonging"
+            ],
+            "tone": [
+                "Whimsical",
+                "Warm",
+                "Adventurous",
+                "Hopeful"
+            ],
+            "keywords": [
+                "Hogwarts",
+                "Sorting Hat",
+                "Quidditch",
+                "Philosopher's Stone",
+                "Voldemort",
+                "Diagon Alley",
+                "Platform 9¾",
+                "Gryffindor",
+                "First Year",
+                "Wizarding World Introduction"
+            ],
+            "language": [
+                "en"
+            ],
+            "budget": "$125,000,000",
+            "revenue": "$1,001,956,011",
+            "boxOffice": {
+                "domestic": "$317,575,550",
+                "international": "$657,155,488",
+                "worldwide": "$1,001,956,011",
+                "openingWeekend": "$90,294,621"
+            },
+            "popularityScore": 97.8,
+            "trendingScore": 89.3,
+            "fanRating": 9.0,
+            "criticRating": 81,
+            "ageRating": "PG",
+            "ratings": {
+                "imdb": 7.6,
+                "rottenTomatoes": 81,
+                "metacritic": 65,
+                "audienceScore": 82
+            },
+            "production": {
+                "studio": "Warner Bros. Pictures",
+                "distributor": "Warner Bros. Pictures",
+                "country": "United Kingdom / United States",
+                "filmingLocations": [
+                    "Alnwick Castle, Northumberland, England",
+                    "Gloucester Cathedral, Gloucester, England",
+                    "Christ Church College, Oxford, England",
+                    "Goathland Station, North Yorkshire, England",
+                    "Warner Bros. Studios, Leavesden, Hertfordshire",
+                    "Glenfinnan Viaduct, Scotland"
+                ],
+                "productionCompanies": [
+                    "Heyday Films",
+                    "1492 Pictures",
+                    "Warner Bros. Pictures"
+                ]
+            },
+            "media": {
+                "poster": "https://wizarding-api.vercel.app/images/movies/harry-potter-1/poster.jpg",
+                "backdrop": "https://wizarding-api.vercel.app/images/movies/harry-potter-1/backdrop.jpg",
+                "banner": "https://wizarding-api.vercel.app/images/movies/harry-potter-1/banner.jpg",
+                "logo": "https://wizarding-api.vercel.app/images/movies/harry-potter-1/logo.png",
+                "trailer": "https://wizarding-api.vercel.app/trailers/hp1-official-trailer.mp4",
+                "teaser": "https://wizarding-api.vercel.app/trailers/hp1-teaser.mp4",
+                "gallery": [
+                    "https://wizarding-api.vercel.app/images/movies/harry-potter-1/gallery/01.jpg",
+                    "https://wizarding-api.vercel.app/images/movies/harry-potter-1/gallery/02.jpg",
+                    "https://wizarding-api.vercel.app/images/movies/harry-potter-1/gallery/03.jpg",
+                    "https://wizarding-api.vercel.app/images/movies/harry-potter-1/gallery/04.jpg",
+                    "https://wizarding-api.vercel.app/images/movies/harry-potter-1/gallery/05.jpg"
+                ]
+            },
+            "streaming": {
+                "platforms": [
+                    "Max",
+                    "Peacock"
+                ],
+                "availability": "Global",
+                "subscriptionType": "Subscription"
+            },
+            "cast": [
+                {
+                    "actorId": "act-020",
+                    "name": "Daniel Radcliffe",
+                    "character": "Harry Potter",
+                    "role": "Lead"
+                },
+                {
+                    "actorId": "act-021",
+                    "name": "Emma Watson",
+                    "character": "Hermione Granger",
+                    "role": "Lead"
+                },
+                {
+                    "actorId": "act-022",
+                    "name": "Rupert Grint",
+                    "character": "Ron Weasley",
+                    "role": "Lead"
+                },
+                {
+                    "actorId": "act-023",
+                    "name": "Richard Harris",
+                    "character": "Albus Dumbledore",
+                    "role": "Supporting"
+                },
+                {
+                    "actorId": "act-024",
+                    "name": "Maggie Smith",
+                    "character": "Minerva McGonagall",
+                    "role": "Supporting"
+                },
+                {
+                    "actorId": "act-025",
+                    "name": "Alan Rickman",
+                    "character": "Severus Snape",
+                    "role": "Supporting"
+                },
+                {
+                    "actorId": "act-026",
+                    "name": "Robbie Coltrane",
+                    "character": "Rubeus Hagrid",
+                    "role": "Supporting"
+                },
+                {
+                    "actorId": "act-027",
+                    "name": "Tom Felton",
+                    "character": "Draco Malfoy",
+                    "role": "Supporting"
+                },
+                {
+                    "actorId": "act-028",
+                    "name": "Ian Hart",
+                    "character": "Professor Quirrell",
+                    "role": "Supporting"
+                },
+                {
+                    "actorId": "act-029",
+                    "name": "John Cleese",
+                    "character": "Nearly Headless Nick",
+                    "role": "Supporting"
+                }
+            ],
+            "directors": [
+                {
+                    "name": "Chris Columbus",
+                    "id": "dir-002"
+                }
+            ],
+            "writers": [
+                {
+                    "name": "Steve Kloves",
+                    "id": "wri-002",
+                    "role": "Screenplay"
+                },
+                {
+                    "name": "J.K. Rowling",
+                    "id": "wri-001",
+                    "role": "Novel"
+                }
+            ],
+            "producers": [
+                {
+                    "name": "David Heyman",
+                    "id": "pro-001"
+                },
+                {
+                    "name": "Mark Radcliffe",
+                    "id": "pro-005"
+                }
+            ],
+            "musicComposers": [
+                {
+                    "name": "John Williams",
+                    "id": "mus-002"
+                }
+            ],
+            "cinematographers": [
+                {
+                    "name": "John Seale",
+                    "id": "cin-003"
+                }
+            ],
+            "editors": [
+                {
+                    "name": "Richard Francis-Bruce",
+                    "id": "edi-002"
+                }
+            ],
+            "awards": [
+                {
+                    "ceremony": "Academy Awards",
+                    "year": 2002,
+                    "category": "Best Original Score",
+                    "result": "Nominated"
+                },
+                {
+                    "ceremony": "Academy Awards",
+                    "year": 2002,
+                    "category": "Best Art Direction",
+                    "result": "Nominated"
+                },
+                {
+                    "ceremony": "Academy Awards",
+                    "year": 2002,
+                    "category": "Best Costume Design",
+                    "result": "Nominated"
+                },
+                {
+                    "ceremony": "BAFTA Awards",
+                    "year": 2002,
+                    "category": "Best Special Visual Effects",
+                    "result": "Won"
+                },
+                {
+                    "ceremony": "Saturn Awards",
+                    "year": 2002,
+                    "category": "Best Fantasy Film",
+                    "result": "Won"
+                }
+            ],
+            "featuredCharacters": [
+                "Harry Potter",
+                "Hermione Granger",
+                "Ron Weasley",
+                "Albus Dumbledore",
+                "Severus Snape",
+                "Draco Malfoy",
+                "Rubeus Hagrid",
+                "Professor Quirrell",
+                "Voldemort (spirit)",
+                "Neville Longbottom"
+            ],
+            "featuredSpells": [
+                "Wingardium Leviosa",
+                "Lumos",
+                "Alohomora",
+                "Incendio",
+                "Accio",
+                "Expelliarmus"
+            ],
+            "featuredArtifacts": [
+                "Philosopher's Stone",
+                "Invisibility Cloak",
+                "Mirror of Erised",
+                "Sorting Hat",
+                "Nimbus 2000"
+            ],
+            "featuredLocations": [
+                "Hogwarts Castle",
+                "Diagon Alley",
+                "Gringotts Bank",
+                "The Forbidden Forest",
+                "Platform 9¾",
+                "Hogwarts Express",
+                "Quidditch Pitch",
+                "Hogsmeade"
+            ],
+            "featuredCreatures": [
+                "Fluffy (Three-Headed Dog)",
+                "Norbert the Norwegian Ridgeback",
+                "Centaurs",
+                "Unicorn",
+                "Devil's Snare (Plant)"
+            ],
+            "relatedBooks": [
+                {
+                    "title": "Harry Potter and the Philosopher's Stone",
+                    "author": "J.K. Rowling",
+                    "isbn": "978-0439708180"
+                }
+            ],
+            "quotes": [
+                {
+                    "character": "Albus Dumbledore",
+                    "quote": "It does not do to dwell on dreams and forget to live."
+                },
+                {
+                    "character": "Hermione Granger",
+                    "quote": "Books! And cleverness! There are more important things — friendship and bravery."
+                },
+                {
+                    "character": "Rubeus Hagrid",
+                    "quote": "You're a wizard, Harry."
+                }
+            ],
+            "soundtracks": [
+                {
+                    "title": "Hedwig's Theme",
+                    "composer": "John Williams",
+                    "duration": "4:02"
+                },
+                {
+                    "title": "Harry's Wondrous World",
+                    "composer": "John Williams",
+                    "duration": "7:27"
+                },
+                {
+                    "title": "The Quidditch Match",
+                    "composer": "John Williams",
+                    "duration": "7:36"
+                },
+                {
+                    "title": "Diagon Alley and the Gringotts Bank",
+                    "composer": "John Williams",
+                    "duration": "5:03"
+                }
+            ],
+            "watchStats": {
+                "views": 89400000,
+                "likes": 7120000,
+                "favorites": 5300000,
+                "watchlistAdds": 11000000
+            },
+            "connections": {
+                "prequel": "hp-wwcu-003",
+                "sequel": "hp-wwcu-005",
+                "spinOffs": [
+                    "hp-wwcu-001"
+                ],
+                "relatedMovies": [
+                    "hp-wwcu-005",
+                    "hp-wwcu-006",
+                    "hp-wwcu-007"
+                ]
+            },
+            "aiTags": [
+                "family-movie",
+                "classic",
+                "franchise-entry",
+                "coming-of-age",
+                "world-introduction",
+                "feel-good",
+                "rewatch-worthy"
+            ],
+            "emotionTags": [
+                "wonder",
+                "joy",
+                "excitement",
+                "warmth",
+                "nostalgia"
+            ],
+            "cinematicStyle": [
+                "Classic Fantasy",
+                "Warm Golden Palette",
+                "Storybook Aesthetic"
+            ],
+            "sceneCategories": [
+                "World Introduction",
+                "Sorting Ceremony",
+                "Quidditch Match",
+                "Friendship Bond",
+                "Final Showdown"
+            ],
+            "canonStatus": "Canon"
+        },
+        {
+            "id": "hp-wwcu-005",
+            "slug": "harry-potter-and-the-chamber-of-secrets",
+            "title": "Harry Potter and the Chamber of Secrets",
+            "originalTitle": "Harry Potter and the Chamber of Secrets",
+            "tagline": "Hogwarts is back in session.",
+            "overview": "Harry Potter's second year at Hogwarts is marked by strange attacks that leave students petrified, a legendary monster in the school's walls, and whispers of the Chamber of Secrets.",
+            "storyline": "After a terrifying summer at the Dursleys, Harry returns to Hogwarts against the warnings of a mysterious house-elf named Dobby. Students are being petrified by an unseen monster and cryptic messages appear on the walls. Harry discovers he is a Parseltongue — the ability to speak to serpents — and must unravel the mystery of the Chamber of Secrets before Hogwarts closes.",
+            "synopsis": "A Basilisk released from the Chamber of Secrets by a possessed Ginny Weasley — manipulated by Tom Riddle's diary — terrorizes the school. Harry enters the Chamber, destroys the diary with a Basilisk fang, and Fawkes the phoenix saves his life. Dobby is freed when Harry tricks Lucius Malfoy into giving the house-elf a sock.",
+            "releaseDate": "2002-11-15",
+            "runtime": 161,
+            "status": "Released",
+            "chronologyOrder": 9,
+            "timelineYear": "1992–1993",
+            "universeEra": "The Golden Trio Era",
+            "phase": "Harry Potter Saga",
+            "saga": "Harry Potter",
+            "sagaOrder": 2,
+            "genres": [
+                "Fantasy",
+                "Adventure",
+                "Mystery",
+                "Horror"
+            ],
+            "subGenres": [
+                "School Drama",
+                "Dark Coming-of-Age",
+                "Creature Feature"
+            ],
+            "themes": [
+                "Identity",
+                "Prejudice",
+                "Courage Under Pressure",
+                "Memory and Manipulation",
+                "Heroism"
+            ],
+            "tone": [
+                "Dark",
+                "Mysterious",
+                "Adventurous",
+                "Tense"
+            ],
+            "keywords": [
+                "Basilisk",
+                "Chamber of Secrets",
+                "Parseltongue",
+                "Tom Riddle",
+                "Horcrux",
+                "Dobby",
+                "Ginny",
+                "Mandrakes",
+                "Polyjuice Potion",
+                "Gilderoy Lockhart"
+            ],
+            "language": [
+                "en"
+            ],
+            "budget": "$100,000,000",
+            "revenue": "$879,011,714",
+            "boxOffice": {
+                "domestic": "$261,988,482",
+                "international": "$617,023,232",
+                "worldwide": "$879,011,714",
+                "openingWeekend": "$88,357,488"
+            },
+            "popularityScore": 93.2,
+            "trendingScore": 84.7,
+            "fanRating": 8.6,
+            "criticRating": 82,
+            "ageRating": "PG",
+            "ratings": {
+                "imdb": 7.4,
+                "rottenTomatoes": 82,
+                "metacritic": 63,
+                "audienceScore": 80
+            },
+            "production": {
+                "studio": "Warner Bros. Pictures",
+                "distributor": "Warner Bros. Pictures",
+                "country": "United Kingdom / United States",
+                "filmingLocations": [
+                    "Lacock Abbey, Wiltshire, England",
+                    "Blenheim Palace, Oxfordshire, England",
+                    "Warner Bros. Studios, Leavesden, Hertfordshire",
+                    "Gloucester Cathedral, Gloucester, England"
+                ],
+                "productionCompanies": [
+                    "Heyday Films",
+                    "1492 Pictures",
+                    "Warner Bros. Pictures"
+                ]
+            },
+            "media": {
+                "poster": "https://wizarding-api.vercel.app/images/movies/harry-potter-2/poster.jpg",
+                "backdrop": "https://wizarding-api.vercel.app/images/movies/harry-potter-2/backdrop.jpg",
+                "banner": "https://wizarding-api.vercel.app/images/movies/harry-potter-2/banner.jpg",
+                "logo": "https://wizarding-api.vercel.app/images/movies/harry-potter-2/logo.png",
+                "trailer": "https://wizarding-api.vercel.app/trailers/hp2-official-trailer.mp4",
+                "teaser": "https://wizarding-api.vercel.app/trailers/hp2-teaser.mp4",
+                "gallery": [
+                    "https://wizarding-api.vercel.app/images/movies/harry-potter-2/gallery/01.jpg",
+                    "https://wizarding-api.vercel.app/images/movies/harry-potter-2/gallery/02.jpg",
+                    "https://wizarding-api.vercel.app/images/movies/harry-potter-2/gallery/03.jpg"
+                ]
+            },
+            "streaming": {
+                "platforms": [
+                    "Max",
+                    "Peacock"
+                ],
+                "availability": "Global",
+                "subscriptionType": "Subscription"
+            },
+            "cast": [
+                {
+                    "actorId": "act-020",
+                    "name": "Daniel Radcliffe",
+                    "character": "Harry Potter",
+                    "role": "Lead"
+                },
+                {
+                    "actorId": "act-021",
+                    "name": "Emma Watson",
+                    "character": "Hermione Granger",
+                    "role": "Lead"
+                },
+                {
+                    "actorId": "act-022",
+                    "name": "Rupert Grint",
+                    "character": "Ron Weasley",
+                    "role": "Lead"
+                },
+                {
+                    "actorId": "act-023",
+                    "name": "Richard Harris",
+                    "character": "Albus Dumbledore",
+                    "role": "Supporting"
+                },
+                {
+                    "actorId": "act-025",
+                    "name": "Alan Rickman",
+                    "character": "Severus Snape",
+                    "role": "Supporting"
+                },
+                {
+                    "actorId": "act-030",
+                    "name": "Kenneth Branagh",
+                    "character": "Gilderoy Lockhart",
+                    "role": "Supporting"
+                },
+                {
+                    "actorId": "act-031",
+                    "name": "Jason Isaacs",
+                    "character": "Lucius Malfoy",
+                    "role": "Supporting"
+                },
+                {
+                    "actorId": "act-032",
+                    "name": "Bonnie Wright",
+                    "character": "Ginny Weasley",
+                    "role": "Supporting"
+                },
+                {
+                    "actorId": "act-033",
+                    "name": "Mark Williams",
+                    "character": "Arthur Weasley",
+                    "role": "Supporting"
+                },
+                {
+                    "actorId": "act-034",
+                    "name": "Toby Jones",
+                    "character": "Dobby",
+                    "role": "Supporting"
+                }
+            ],
+            "directors": [
+                {
+                    "name": "Chris Columbus",
+                    "id": "dir-002"
+                }
+            ],
+            "writers": [
+                {
+                    "name": "Steve Kloves",
+                    "id": "wri-002",
+                    "role": "Screenplay"
+                },
+                {
+                    "name": "J.K. Rowling",
+                    "id": "wri-001",
+                    "role": "Novel"
+                }
+            ],
+            "producers": [
+                {
+                    "name": "David Heyman",
+                    "id": "pro-001"
+                },
+                {
+                    "name": "Mark Radcliffe",
+                    "id": "pro-005"
+                }
+            ],
+            "musicComposers": [
+                {
+                    "name": "John Williams",
+                    "id": "mus-002"
+                }
+            ],
+            "cinematographers": [
+                {
+                    "name": "Roger Pratt",
+                    "id": "cin-004"
+                }
+            ],
+            "editors": [
+                {
+                    "name": "Peter Honess",
+                    "id": "edi-003"
+                }
+            ],
+            "awards": [
+                {
+                    "ceremony": "Saturn Awards",
+                    "year": 2003,
+                    "category": "Best Fantasy Film",
+                    "result": "Won"
+                },
+                {
+                    "ceremony": "BAFTA Awards",
+                    "year": 2003,
+                    "category": "Best Special Effects",
+                    "result": "Nominated"
+                }
+            ],
+            "featuredCharacters": [
+                "Harry Potter",
+                "Hermione Granger",
+                "Ron Weasley",
+                "Dobby",
+                "Tom Riddle (Diary)",
+                "Ginny Weasley",
+                "Lucius Malfoy",
+                "Gilderoy Lockhart",
+                "Fawkes"
+            ],
+            "featuredSpells": [
+                "Wingardium Leviosa",
+                "Expelliarmus",
+                "Lumos",
+                "Obliviate",
+                "Parseltongue",
+                "Alohomora"
+            ],
+            "featuredArtifacts": [
+                "Tom Riddle's Diary (Horcrux)",
+                "Sorting Hat",
+                "Sword of Gryffindor",
+                "Basilisk Fang"
+            ],
+            "featuredLocations": [
+                "Chamber of Secrets",
+                "Moaning Myrtle's Bathroom",
+                "Dueling Club",
+                "Aragog's Lair",
+                "Flying Ford Anglia Route"
+            ],
+            "featuredCreatures": [
+                "Basilisk",
+                "Fawkes (Phoenix)",
+                "Aragog (Acromantula)",
+                "Mandrakes",
+                "Gnomes",
+                "Dobby (House-Elf)"
+            ],
+            "relatedBooks": [
+                {
+                    "title": "Harry Potter and the Chamber of Secrets",
+                    "author": "J.K. Rowling",
+                    "isbn": "978-0439064873"
+                }
+            ],
+            "quotes": [
+                {
+                    "character": "Albus Dumbledore",
+                    "quote": "It is our choices, Harry, that show what we truly are, far more than our abilities."
+                },
+                {
+                    "character": "Tom Riddle (Diary)",
+                    "quote": "I fashioned myself a new name, a name I knew wizards everywhere would one day fear to speak, when I had become the greatest sorcerer in the world!"
+                },
+                {
+                    "character": "Dobby",
+                    "quote": "Dobby is free."
+                }
+            ],
+            "soundtracks": [
+                {
+                    "title": "Hedwig's Theme",
+                    "composer": "John Williams",
+                    "duration": "4:16"
+                },
+                {
+                    "title": "Fawkes the Phoenix",
+                    "composer": "John Williams",
+                    "duration": "6:08"
+                },
+                {
+                    "title": "The Chamber of Secrets",
+                    "composer": "John Williams",
+                    "duration": "5:22"
+                }
+            ],
+            "watchStats": {
+                "views": 76300000,
+                "likes": 6010000,
+                "favorites": 4220000,
+                "watchlistAdds": 9200000
+            },
+            "connections": {
+                "prequel": "hp-wwcu-004",
+                "sequel": "hp-wwcu-006",
+                "spinOffs": [],
+                "relatedMovies": [
+                    "hp-wwcu-004",
+                    "hp-wwcu-006"
+                ]
+            },
+            "aiTags": [
+                "mystery",
+                "classic",
+                "family-friendly",
+                "creature-feature",
+                "dark-sequel",
+                "rewatch-worthy",
+                "horcrux-introduction"
+            ],
+            "emotionTags": [
+                "tension",
+                "fear",
+                "triumph",
+                "warmth",
+                "humor"
+            ],
+            "cinematicStyle": [
+                "Dark Gothic",
+                "Creature Horror",
+                "Adventure Comedy Mix"
+            ],
+            "sceneCategories": [
+                "Mystery Unraveling",
+                "Creature Encounter",
+                "Dueling Club",
+                "Chamber Climax",
+                "Heartwarming Ending"
+            ],
+            "canonStatus": "Canon"
+        },
+        {
+            "id": "hp-wwcu-006",
+            "slug": "harry-potter-and-the-prisoner-of-azkaban",
+            "title": "Harry Potter and the Prisoner of Azkaban",
+            "originalTitle": "Harry Potter and the Prisoner of Azkaban",
+            "tagline": "Something wicked this way comes.",
+            "overview": "In his third year, Harry Potter learns that mass murderer Sirius Black has escaped from Azkaban and may be coming for him.",
+            "storyline": "Harry discovers that the notorious escapee Sirius Black — once his parents' best friend — is believed to be a supporter of Voldemort. Dementors guard Hogwarts, Professor Lupin teaches Defense Against the Dark Arts, and a Time-Turner changes everything in the film's climactic third act.",
+            "synopsis": "Sirius Black, Harry's godfather, escapes Azkaban. Harry learns Sirius was his father's friend and betrayer of his parents — only for this to be revealed as false. Peter Pettigrew, the true traitor, faked his death and hid as Ron's pet rat Scabbers for twelve years. Sirius is recaptured but ultimately escapes on Buckbeak, aided by Harry and Hermione traveling back in time.",
+            "releaseDate": "2004-06-04",
+            "runtime": 142,
+            "status": "Released",
+            "chronologyOrder": 10,
+            "timelineYear": "1993–1994",
+            "universeEra": "The Golden Trio Era",
+            "phase": "Harry Potter Saga",
+            "saga": "Harry Potter",
+            "sagaOrder": 3,
+            "genres": [
+                "Fantasy",
+                "Adventure",
+                "Thriller",
+                "Mystery"
+            ],
+            "subGenres": [
+                "Time Travel",
+                "Dark Coming-of-Age",
+                "Gothic Fantasy"
+            ],
+            "themes": [
+                "Truth vs. Illusion",
+                "Grief and Trauma",
+                "Time and Consequence",
+                "Found Family",
+                "Prejudice against Werewolves"
+            ],
+            "tone": [
+                "Dark",
+                "Atmospheric",
+                "Emotional",
+                "Thrilling"
+            ],
+            "keywords": [
+                "Sirius Black",
+                "Azkaban",
+                "Time-Turner",
+                "Dementors",
+                "Expecto Patronum",
+                "Hippogriff",
+                "Werewolf",
+                "Animagus",
+                "Marauder's Map",
+                "Prisoner"
+            ],
+            "language": [
+                "en"
+            ],
+            "budget": "$130,000,000",
+            "revenue": "$796,688,549",
+            "boxOffice": {
+                "domestic": "$249,538,952",
+                "international": "$547,149,597",
+                "worldwide": "$796,688,549",
+                "openingWeekend": "$93,687,367"
+            },
+            "popularityScore": 95.1,
+            "trendingScore": 88.6,
+            "fanRating": 9.3,
+            "criticRating": 91,
+            "ageRating": "PG",
+            "ratings": {
+                "imdb": 7.9,
+                "rottenTomatoes": 91,
+                "metacritic": 82,
+                "audienceScore": 87
+            },
+            "production": {
+                "studio": "Warner Bros. Pictures",
+                "distributor": "Warner Bros. Pictures",
+                "country": "United Kingdom / United States",
+                "filmingLocations": [
+                    "Glencoe, Scottish Highlands, Scotland",
+                    "Black Park, Buckinghamshire, England",
+                    "Clachaig Inn, Glencoe, Scotland",
+                    "Warner Bros. Studios, Leavesden, Hertfordshire"
+                ],
+                "productionCompanies": [
+                    "Heyday Films",
+                    "1492 Pictures",
+                    "Warner Bros. Pictures",
+                    "P of A Productions"
+                ]
+            },
+            "media": {
+                "poster": "https://wizarding-api.vercel.app/images/movies/harry-potter-3/poster.jpg",
+                "backdrop": "https://wizarding-api.vercel.app/images/movies/harry-potter-3/backdrop.jpg",
+                "banner": "https://wizarding-api.vercel.app/images/movies/harry-potter-3/banner.jpg",
+                "logo": "https://wizarding-api.vercel.app/images/movies/harry-potter-3/logo.png",
+                "trailer": "https://wizarding-api.vercel.app/trailers/hp3-official-trailer.mp4",
+                "teaser": "https://wizarding-api.vercel.app/trailers/hp3-teaser.mp4",
+                "gallery": [
+                    "https://wizarding-api.vercel.app/images/movies/harry-potter-3/gallery/01.jpg",
+                    "https://wizarding-api.vercel.app/images/movies/harry-potter-3/gallery/02.jpg",
+                    "https://wizarding-api.vercel.app/images/movies/harry-potter-3/gallery/03.jpg"
+                ]
+            },
+            "streaming": {
+                "platforms": [
+                    "Max",
+                    "Peacock"
+                ],
+                "availability": "Global",
+                "subscriptionType": "Subscription"
+            },
+            "cast": [
+                {
+                    "actorId": "act-020",
+                    "name": "Daniel Radcliffe",
+                    "character": "Harry Potter",
+                    "role": "Lead"
+                },
+                {
+                    "actorId": "act-021",
+                    "name": "Emma Watson",
+                    "character": "Hermione Granger",
+                    "role": "Lead"
+                },
+                {
+                    "actorId": "act-022",
+                    "name": "Rupert Grint",
+                    "character": "Ron Weasley",
+                    "role": "Lead"
+                },
+                {
+                    "actorId": "act-035",
+                    "name": "Gary Oldman",
+                    "character": "Sirius Black",
+                    "role": "Lead"
+                },
+                {
+                    "actorId": "act-036",
+                    "name": "David Thewlis",
+                    "character": "Remus Lupin",
+                    "role": "Supporting"
+                },
+                {
+                    "actorId": "act-037",
+                    "name": "Timothy Spall",
+                    "character": "Peter Pettigrew",
+                    "role": "Supporting"
+                },
+                {
+                    "actorId": "act-038",
+                    "name": "Emma Thompson",
+                    "character": "Professor Trelawney",
+                    "role": "Supporting"
+                },
+                {
+                    "actorId": "act-039",
+                    "name": "Michael Gambon",
+                    "character": "Albus Dumbledore",
+                    "role": "Supporting"
+                }
+            ],
+            "directors": [
+                {
+                    "name": "Alfonso Cuarón",
+                    "id": "dir-003"
+                }
+            ],
+            "writers": [
+                {
+                    "name": "Steve Kloves",
+                    "id": "wri-002",
+                    "role": "Screenplay"
+                },
+                {
+                    "name": "J.K. Rowling",
+                    "id": "wri-001",
+                    "role": "Novel"
+                }
+            ],
+            "producers": [
+                {
+                    "name": "David Heyman",
+                    "id": "pro-001"
+                },
+                {
+                    "name": "Mark Radcliffe",
+                    "id": "pro-005"
+                }
+            ],
+            "musicComposers": [
+                {
+                    "name": "John Williams",
+                    "id": "mus-002"
+                }
+            ],
+            "cinematographers": [
+                {
+                    "name": "Michael Seresin",
+                    "id": "cin-005"
+                }
+            ],
+            "editors": [
+                {
+                    "name": "Steven Weisberg",
+                    "id": "edi-004"
+                }
+            ],
+            "awards": [
+                {
+                    "ceremony": "BAFTA Awards",
+                    "year": 2005,
+                    "category": "Best Special Visual Effects",
+                    "result": "Nominated"
+                },
+                {
+                    "ceremony": "Saturn Awards",
+                    "year": 2004,
+                    "category": "Best Fantasy Film",
+                    "result": "Won"
+                },
+                {
+                    "ceremony": "Empire Awards",
+                    "year": 2005,
+                    "category": "Best British Film",
+                    "result": "Won"
+                }
+            ],
+            "featuredCharacters": [
+                "Harry Potter",
+                "Hermione Granger",
+                "Ron Weasley",
+                "Sirius Black",
+                "Remus Lupin",
+                "Peter Pettigrew",
+                "Buckbeak",
+                "Dementor"
+            ],
+            "featuredSpells": [
+                "Expecto Patronum",
+                "Riddikulus",
+                "Lumos",
+                "Accio",
+                "Finite Incantatem"
+            ],
+            "featuredArtifacts": [
+                "Marauder's Map",
+                "Time-Turner",
+                "Nimbus 2000 (Destroyed)",
+                "Firebolt Broomstick"
+            ],
+            "featuredLocations": [
+                "Hogsmeade Village",
+                "Shrieking Shack",
+                "Hogwarts Grounds",
+                "Buckbeak's Pumpkin Patch",
+                "The Whomping Willow"
+            ],
+            "featuredCreatures": [
+                "Hippogriff (Buckbeak)",
+                "Dementors",
+                "Werewolf (Lupin)",
+                "Boggarts",
+                "Animagi (Sirius / Peter / James)"
+            ],
+            "relatedBooks": [
+                {
+                    "title": "Harry Potter and the Prisoner of Azkaban",
+                    "author": "J.K. Rowling",
+                    "isbn": "978-0439136365"
+                }
+            ],
+            "quotes": [
+                {
+                    "character": "Remus Lupin",
+                    "quote": "Happiness can be found even in the darkest of times, if one only remembers to turn on the light."
+                },
+                {
+                    "character": "Sirius Black",
+                    "quote": "I did my waiting! Twelve years of it! In Azkaban!"
+                },
+                {
+                    "character": "Harry Potter",
+                    "quote": "Expecto Patronum!"
+                }
+            ],
+            "soundtracks": [
+                {
+                    "title": "Buckbeak's Flight",
+                    "composer": "John Williams",
+                    "duration": "4:19"
+                },
+                {
+                    "title": "A Window to the Past",
+                    "composer": "John Williams",
+                    "duration": "5:15"
+                },
+                {
+                    "title": "Double Trouble",
+                    "composer": "John Williams",
+                    "duration": "2:52"
+                }
+            ],
+            "watchStats": {
+                "views": 81600000,
+                "likes": 7890000,
+                "favorites": 6100000,
+                "watchlistAdds": 10100000
+            },
+            "connections": {
+                "prequel": "hp-wwcu-005",
+                "sequel": "hp-wwcu-007",
+                "spinOffs": [],
+                "relatedMovies": [
+                    "hp-wwcu-005",
+                    "hp-wwcu-007"
+                ]
+            },
+            "aiTags": [
+                "critically-acclaimed",
+                "fan-favorite",
+                "time-travel",
+                "dark-turn",
+                "emotional-depth",
+                "mystery-thriller",
+                "rewatch-worthy"
+            ],
+            "emotionTags": [
+                "grief",
+                "hope",
+                "wonder",
+                "dread",
+                "triumph",
+                "nostalgia"
+            ],
+            "cinematicStyle": [
+                "Auteur Filmmaking",
+                "Dark Atmospheric",
+                "Handheld Intimacy",
+                "Gothic Horror Influence"
+            ],
+            "sceneCategories": [
+                "Expecto Patronum Climax",
+                "Time Travel Sequence",
+                "Boggart Classroom",
+                "Dementor Encounter",
+                "Marauders Revelation"
+            ],
+            "canonStatus": "Canon"
+        },
+        {
+            "id": "hp-wwcu-007",
+            "slug": "harry-potter-and-the-goblet-of-fire",
+            "title": "Harry Potter and the Goblet of Fire",
+            "originalTitle": "Harry Potter and the Goblet of Fire",
+            "tagline": "Dark and difficult times lie ahead.",
+            "overview": "Harry Potter is mysteriously entered into the Triwizard Tournament, a dangerous magical competition between three wizarding schools, while Voldemort plots his return.",
+            "storyline": "Despite being underage, Harry's name emerges from the Goblet of Fire, forcing him to compete against champions from Beauxbatons and Durmstrang. The tournament's three deadly tasks culminate in a trap that transports Harry to a graveyard where Voldemort is reborn.",
+            "synopsis": "The Triwizard Tournament tasks — dragons, merpeople, a maze — build to a horrifying finale when the Portkey transports Harry to the graveyard where Peter Pettigrew uses Harry's blood to restore Voldemort to full power. Cedric Diggory is murdered. Harry barely escapes using Priori Incantatem and returns to Hogwarts bearing Cedric's body, and the news of Voldemort's return.",
+            "releaseDate": "2005-11-18",
+            "runtime": 157,
+            "status": "Released",
+            "chronologyOrder": 11,
+            "timelineYear": "1994–1995",
+            "universeEra": "The Golden Trio Era",
+            "phase": "Harry Potter Saga",
+            "saga": "Harry Potter",
+            "sagaOrder": 4,
+            "genres": [
+                "Fantasy",
+                "Adventure",
+                "Thriller",
+                "Action"
+            ],
+            "subGenres": [
+                "Tournament Drama",
+                "Dark Fantasy",
+                "Teen Drama"
+            ],
+            "themes": [
+                "Death",
+                "Fear",
+                "Fairness",
+                "Coming of Age",
+                "Voldemort's Return",
+                "First Love"
+            ],
+            "tone": [
+                "Dark",
+                "Thrilling",
+                "Emotional",
+                "Epic"
+            ],
+            "keywords": [
+                "Triwizard Tournament",
+                "Voldemort Returns",
+                "Goblet of Fire",
+                "Cedric Diggory",
+                "Graveyard",
+                "Dragon",
+                "Yule Ball",
+                "Priori Incantatem",
+                "Death Eaters",
+                "Barty Crouch Jr."
+            ],
+            "language": [
+                "en"
+            ],
+            "budget": "$150,000,000",
+            "revenue": "$896,911,078",
+            "boxOffice": {
+                "domestic": "$290,013,036",
+                "international": "$606,898,042",
+                "worldwide": "$896,911,078",
+                "openingWeekend": "$102,685,961"
+            },
+            "popularityScore": 94.0,
+            "trendingScore": 87.2,
+            "fanRating": 9.0,
+            "criticRating": 88,
+            "ageRating": "PG-13",
+            "ratings": {
+                "imdb": 7.7,
+                "rottenTomatoes": 88,
+                "metacritic": 81,
+                "audienceScore": 83
+            },
+            "production": {
+                "studio": "Warner Bros. Pictures",
+                "distributor": "Warner Bros. Pictures",
+                "country": "United Kingdom / United States",
+                "filmingLocations": [
+                    "Steall Waterfall, Glen Nevis, Scotland",
+                    "Blenheim Palace, Oxfordshire, England",
+                    "Virginia Water, Surrey, England",
+                    "Warner Bros. Studios, Leavesden, Hertfordshire"
+                ],
+                "productionCompanies": [
+                    "Heyday Films",
+                    "Patalex IV Productions",
+                    "Warner Bros. Pictures"
+                ]
+            },
+            "media": {
+                "poster": "https://wizarding-api.vercel.app/images/movies/harry-potter-4/poster.jpg",
+                "backdrop": "https://wizarding-api.vercel.app/images/movies/harry-potter-4/backdrop.jpg",
+                "banner": "https://wizarding-api.vercel.app/images/movies/harry-potter-4/banner.jpg",
+                "logo": "https://wizarding-api.vercel.app/images/movies/harry-potter-4/logo.png",
+                "trailer": "https://wizarding-api.vercel.app/trailers/hp4-official-trailer.mp4",
+                "teaser": "https://wizarding-api.vercel.app/trailers/hp4-teaser.mp4",
+                "gallery": [
+                    "https://wizarding-api.vercel.app/images/movies/harry-potter-4/gallery/01.jpg",
+                    "https://wizarding-api.vercel.app/images/movies/harry-potter-4/gallery/02.jpg",
+                    "https://wizarding-api.vercel.app/images/movies/harry-potter-4/gallery/03.jpg"
+                ]
+            },
+            "streaming": {
+                "platforms": [
+                    "Max",
+                    "Peacock"
+                ],
+                "availability": "Global",
+                "subscriptionType": "Subscription"
+            },
+            "cast": [
+                {
+                    "actorId": "act-020",
+                    "name": "Daniel Radcliffe",
+                    "character": "Harry Potter",
+                    "role": "Lead"
+                },
+                {
+                    "actorId": "act-021",
+                    "name": "Emma Watson",
+                    "character": "Hermione Granger",
+                    "role": "Lead"
+                },
+                {
+                    "actorId": "act-022",
+                    "name": "Rupert Grint",
+                    "character": "Ron Weasley",
+                    "role": "Lead"
+                },
+                {
+                    "actorId": "act-040",
+                    "name": "Robert Pattinson",
+                    "character": "Cedric Diggory",
+                    "role": "Supporting"
+                },
+                {
+                    "actorId": "act-041",
+                    "name": "Brendan Gleeson",
+                    "character": "Mad-Eye Moody",
+                    "role": "Supporting"
+                },
+                {
+                    "actorId": "act-042",
+                    "name": "Ralph Fiennes",
+                    "character": "Lord Voldemort",
+                    "role": "Supporting"
+                },
+                {
+                    "actorId": "act-043",
+                    "name": "David Tennant",
+                    "character": "Barty Crouch Jr.",
+                    "role": "Supporting"
+                },
+                {
+                    "actorId": "act-044",
+                    "name": "Miranda Richardson",
+                    "character": "Rita Skeeter",
+                    "role": "Supporting"
+                }
+            ],
+            "directors": [
+                {
+                    "name": "Mike Newell",
+                    "id": "dir-004"
+                }
+            ],
+            "writers": [
+                {
+                    "name": "Steve Kloves",
+                    "id": "wri-002",
+                    "role": "Screenplay"
+                },
+                {
+                    "name": "J.K. Rowling",
+                    "id": "wri-001",
+                    "role": "Novel"
+                }
+            ],
+            "producers": [
+                {
+                    "name": "David Heyman",
+                    "id": "pro-001"
+                }
+            ],
+            "musicComposers": [
+                {
+                    "name": "Patrick Doyle",
+                    "id": "mus-003"
+                }
+            ],
+            "cinematographers": [
+                {
+                    "name": "Roger Pratt",
+                    "id": "cin-004"
+                }
+            ],
+            "editors": [
+                {
+                    "name": "Mick Audsley",
+                    "id": "edi-005"
+                }
+            ],
+            "awards": [
+                {
+                    "ceremony": "Academy Awards",
+                    "year": 2006,
+                    "category": "Best Art Direction",
+                    "result": "Nominated"
+                },
+                {
+                    "ceremony": "BAFTA Awards",
+                    "year": 2006,
+                    "category": "Best Special Effects",
+                    "result": "Won"
+                }
+            ],
+            "featuredCharacters": [
+                "Harry Potter",
+                "Hermione Granger",
+                "Ron Weasley",
+                "Cedric Diggory",
+                "Lord Voldemort",
+                "Mad-Eye Moody (Barty Crouch Jr.)",
+                "Rita Skeeter",
+                "Fleur Delacour",
+                "Viktor Krum"
+            ],
+            "featuredSpells": [
+                "Accio",
+                "Expelliarmus",
+                "Avada Kedavra",
+                "Crucio",
+                "Priori Incantatem",
+                "Diffindo"
+            ],
+            "featuredArtifacts": [
+                "Goblet of Fire",
+                "Triwizard Cup (Portkey)",
+                "Pensieve",
+                "Wormtail's Silver Hand"
+            ],
+            "featuredLocations": [
+                "Quidditch World Cup",
+                "Triwizard Maze",
+                "Underwater Lake",
+                "Little Hangleton Graveyard",
+                "Beauxbatons Carriage",
+                "Durmstrang Ship"
+            ],
+            "featuredCreatures": [
+                "Hungarian Horntail Dragon",
+                "Grindylows",
+                "Merpeople",
+                "Blast-Ended Skrewts"
+            ],
+            "relatedBooks": [
+                {
+                    "title": "Harry Potter and the Goblet of Fire",
+                    "author": "J.K. Rowling",
+                    "isbn": "978-0439139601"
+                }
+            ],
+            "quotes": [
+                {
+                    "character": "Albus Dumbledore",
+                    "quote": "Remember, if the time should come when you have to make a choice between what is right and what is easy..."
+                },
+                {
+                    "character": "Lord Voldemort",
+                    "quote": "Don't you turn your back on me, Harry Potter!"
+                },
+                {
+                    "character": "Cedric Diggory",
+                    "quote": "Take my body back to my father."
+                }
+            ],
+            "soundtracks": [
+                {
+                    "title": "Harry in Winter",
+                    "composer": "Patrick Doyle",
+                    "duration": "4:44"
+                },
+                {
+                    "title": "The Quidditch World Cup",
+                    "composer": "Patrick Doyle",
+                    "duration": "3:09"
+                },
+                {
+                    "title": "Voldemort",
+                    "composer": "Patrick Doyle",
+                    "duration": "4:52"
+                }
+            ],
+            "watchStats": {
+                "views": 77800000,
+                "likes": 6640000,
+                "favorites": 5010000,
+                "watchlistAdds": 9800000
+            },
+            "connections": {
+                "prequel": "hp-wwcu-006",
+                "sequel": "hp-wwcu-008",
+                "spinOffs": [],
+                "relatedMovies": [
+                    "hp-wwcu-006",
+                    "hp-wwcu-008"
+                ]
+            },
+            "aiTags": [
+                "high-stakes",
+                "tournament-drama",
+                "villain-return",
+                "teen-drama",
+                "death-and-grief",
+                "epic-action"
+            ],
+            "emotionTags": [
+                "dread",
+                "excitement",
+                "grief",
+                "terror",
+                "triumph",
+                "heartbreak"
+            ],
+            "cinematicStyle": [
+                "Dark Epic",
+                "Tournament Spectacle",
+                "Gothic Horror Climax"
+            ],
+            "sceneCategories": [
+                "Tournament Challenge",
+                "Yule Ball",
+                "Graveyard Resurrection",
+                "Priori Incantatem",
+                "Emotional Farewell"
+            ],
+            "canonStatus": "Canon"
+        },
+        {
+            "id": "hp-wwcu-008",
+            "slug": "harry-potter-and-the-order-of-the-phoenix",
+            "title": "Harry Potter and the Order of the Phoenix",
+            "originalTitle": "Harry Potter and the Order of the Phoenix",
+            "tagline": "The rebellion begins.",
+            "overview": "Harry faces disbelief from the wizarding establishment and forms a secret student defense group — Dumbledore's Army — while Voldemort moves to locate a prophecy.",
+            "storyline": "The Ministry of Magic refuses to believe Voldemort has returned and sends Dolores Umbridge to Hogwarts to monitor and undermine Dumbledore. Harry leads an underground Defense Against the Dark Arts class. The year culminates in a battle at the Department of Mysteries, the death of Sirius Black, and the prophecy's revelation.",
+            "synopsis": "Harry forms Dumbledore's Army to train peers in genuine magic against Umbridge's regime. Voldemort manipulates Harry into leading his friends to the Department of Mysteries. Sirius Black is killed by Bellatrix Lestrange. Dumbledore duels Voldemort and reveals the full prophecy — neither can live while the other survives.",
+            "releaseDate": "2007-07-11",
+            "runtime": 138,
+            "status": "Released",
+            "chronologyOrder": 12,
+            "timelineYear": "1995–1996",
+            "universeEra": "The Golden Trio Era",
+            "phase": "Harry Potter Saga",
+            "saga": "Harry Potter",
+            "sagaOrder": 5,
+            "genres": [
+                "Fantasy",
+                "Thriller",
+                "Drama"
+            ],
+            "subGenres": [
+                "Political Fantasy",
+                "Resistance Drama",
+                "Psychological Thriller"
+            ],
+            "themes": [
+                "Political Tyranny",
+                "Resistance",
+                "Grief",
+                "Prophecy",
+                "Mental Health",
+                "Loss of Innocence"
+            ],
+            "tone": [
+                "Dark",
+                "Gritty",
+                "Political",
+                "Emotional",
+                "Tense"
+            ],
+            "keywords": [
+                "Dumbledore's Army",
+                "Ministry of Magic",
+                "Prophecy",
+                "Dolores Umbridge",
+                "Order of the Phoenix",
+                "Veil",
+                "Occlumency",
+                "Legilimency",
+                "Sirius Death",
+                "Department of Mysteries"
+            ],
+            "language": [
+                "en"
+            ],
+            "budget": "$150,000,000",
+            "revenue": "$942,000,000",
+            "boxOffice": {
+                "domestic": "$292,004,738",
+                "international": "$650,000,000",
+                "worldwide": "$942,004,738",
+                "openingWeekend": "$77,071,831"
+            },
+            "popularityScore": 91.5,
+            "trendingScore": 83.0,
+            "fanRating": 8.8,
+            "criticRating": 77,
+            "ageRating": "PG-13",
+            "ratings": {
+                "imdb": 7.5,
+                "rottenTomatoes": 77,
+                "metacritic": 71,
+                "audienceScore": 80
+            },
+            "production": {
+                "studio": "Warner Bros. Pictures",
+                "distributor": "Warner Bros. Pictures",
+                "country": "United Kingdom / United States",
+                "filmingLocations": [
+                    "Claremont Fan Court School, Surrey, England",
+                    "Westminster Bridge, London, England",
+                    "Inner Temple, London, England",
+                    "Warner Bros. Studios, Leavesden, Hertfordshire"
+                ],
+                "productionCompanies": [
+                    "Heyday Films",
+                    "Warner Bros. Pictures"
+                ]
+            },
+            "media": {
+                "poster": "https://wizarding-api.vercel.app/images/movies/harry-potter-5/poster.jpg",
+                "backdrop": "https://wizarding-api.vercel.app/images/movies/harry-potter-5/backdrop.jpg",
+                "banner": "https://wizarding-api.vercel.app/images/movies/harry-potter-5/banner.jpg",
+                "logo": "https://wizarding-api.vercel.app/images/movies/harry-potter-5/logo.png",
+                "trailer": "https://wizarding-api.vercel.app/trailers/hp5-official-trailer.mp4",
+                "teaser": "https://wizarding-api.vercel.app/trailers/hp5-teaser.mp4",
+                "gallery": [
+                    "https://wizarding-api.vercel.app/images/movies/harry-potter-5/gallery/01.jpg",
+                    "https://wizarding-api.vercel.app/images/movies/harry-potter-5/gallery/02.jpg"
+                ]
+            },
+            "streaming": {
+                "platforms": [
+                    "Max",
+                    "Peacock"
+                ],
+                "availability": "Global",
+                "subscriptionType": "Subscription"
+            },
+            "cast": [
+                {
+                    "actorId": "act-020",
+                    "name": "Daniel Radcliffe",
+                    "character": "Harry Potter",
+                    "role": "Lead"
+                },
+                {
+                    "actorId": "act-021",
+                    "name": "Emma Watson",
+                    "character": "Hermione Granger",
+                    "role": "Lead"
+                },
+                {
+                    "actorId": "act-022",
+                    "name": "Rupert Grint",
+                    "character": "Ron Weasley",
+                    "role": "Lead"
+                },
+                {
+                    "actorId": "act-045",
+                    "name": "Imelda Staunton",
+                    "character": "Dolores Umbridge",
+                    "role": "Lead"
+                },
+                {
+                    "actorId": "act-035",
+                    "name": "Gary Oldman",
+                    "character": "Sirius Black",
+                    "role": "Supporting"
+                },
+                {
+                    "actorId": "act-046",
+                    "name": "Helena Bonham Carter",
+                    "character": "Bellatrix Lestrange",
+                    "role": "Supporting"
+                },
+                {
+                    "actorId": "act-047",
+                    "name": "Evanna Lynch",
+                    "character": "Luna Lovegood",
+                    "role": "Supporting"
+                },
+                {
+                    "actorId": "act-039",
+                    "name": "Michael Gambon",
+                    "character": "Albus Dumbledore",
+                    "role": "Supporting"
+                }
+            ],
+            "directors": [
+                {
+                    "name": "David Yates",
+                    "id": "dir-001"
+                }
+            ],
+            "writers": [
+                {
+                    "name": "Michael Goldenberg",
+                    "id": "wri-003",
+                    "role": "Screenplay"
+                },
+                {
+                    "name": "J.K. Rowling",
+                    "id": "wri-001",
+                    "role": "Novel"
+                }
+            ],
+            "producers": [
+                {
+                    "name": "David Heyman",
+                    "id": "pro-001"
+                }
+            ],
+            "musicComposers": [
+                {
+                    "name": "Nicholas Hooper",
+                    "id": "mus-004"
+                }
+            ],
+            "cinematographers": [
+                {
+                    "name": "Slawomir Idziak",
+                    "id": "cin-006"
+                }
+            ],
+            "editors": [
+                {
+                    "name": "Mark Day",
+                    "id": "edi-001"
+                }
+            ],
+            "awards": [
+                {
+                    "ceremony": "Saturn Awards",
+                    "year": 2008,
+                    "category": "Best Fantasy Film",
+                    "result": "Nominated"
+                }
+            ],
+            "featuredCharacters": [
+                "Harry Potter",
+                "Dolores Umbridge",
+                "Sirius Black",
+                "Bellatrix Lestrange",
+                "Luna Lovegood",
+                "Neville Longbottom",
+                "Lord Voldemort",
+                "Albus Dumbledore"
+            ],
+            "featuredSpells": [
+                "Expecto Patronum",
+                "Crucio",
+                "Avada Kedavra",
+                "Legilimens",
+                "Occlumens",
+                "Stupefy",
+                "Reducto"
+            ],
+            "featuredArtifacts": [
+                "Prophecy Orb",
+                "Ministry Floo Network",
+                "Umbridges Quill (Blood Quill)"
+            ],
+            "featuredLocations": [
+                "Ministry of Magic",
+                "Department of Mysteries",
+                "12 Grimmauld Place",
+                "Dolores Umbridge's Office",
+                "Room of Requirement"
+            ],
+            "featuredCreatures": [
+                "Thestrals",
+                "Centaurs",
+                "Grawp (Giant)",
+                "Giant (Grawp)"
+            ],
+            "relatedBooks": [
+                {
+                    "title": "Harry Potter and the Order of the Phoenix",
+                    "author": "J.K. Rowling",
+                    "isbn": "978-0439358071"
+                }
+            ],
+            "quotes": [
+                {
+                    "character": "Luna Lovegood",
+                    "quote": "You're just as sane as I am."
+                },
+                {
+                    "character": "Sirius Black",
+                    "quote": "We've all got both light and dark inside us. What matters is the part we choose to act on."
+                },
+                {
+                    "character": "Harry Potter",
+                    "quote": "I've been waiting for somebody to say that."
+                }
+            ],
+            "soundtracks": [
+                {
+                    "title": "Dumbledore's Army",
+                    "composer": "Nicholas Hooper",
+                    "duration": "5:13"
+                },
+                {
+                    "title": "Another Year Ends",
+                    "composer": "Nicholas Hooper",
+                    "duration": "3:48"
+                },
+                {
+                    "title": "Fireworks",
+                    "composer": "Nicholas Hooper",
+                    "duration": "2:24"
+                }
+            ],
+            "watchStats": {
+                "views": 71000000,
+                "likes": 5820000,
+                "favorites": 4440000,
+                "watchlistAdds": 8700000
+            },
+            "connections": {
+                "prequel": "hp-wwcu-007",
+                "sequel": "hp-wwcu-009",
+                "spinOffs": [],
+                "relatedMovies": [
+                    "hp-wwcu-007",
+                    "hp-wwcu-009"
+                ]
+            },
+            "aiTags": [
+                "political-drama",
+                "resistance-story",
+                "grief",
+                "mentor-loss",
+                "rebellion",
+                "psychological-depth"
+            ],
+            "emotionTags": [
+                "anger",
+                "grief",
+                "determination",
+                "fear",
+                "loss"
+            ],
+            "cinematicStyle": [
+                "Muted Desaturated Palette",
+                "Handheld Camera",
+                "Urban Gothic"
+            ],
+            "sceneCategories": [
+                "Ministry Battle",
+                "Training Montage",
+                "Prophecy Reveal",
+                "Sirius Death",
+                "Umbridge Tyranny"
+            ],
+            "canonStatus": "Canon"
+        },
+        {
+            "id": "hp-wwcu-009",
+            "slug": "harry-potter-and-the-half-blood-prince",
+            "title": "Harry Potter and the Half-Blood Prince",
+            "originalTitle": "Harry Potter and the Half-Blood Prince",
+            "tagline": "In a world where nothing is what it seems, trust no one.",
+            "overview": "Harry discovers an old Potions textbook belonging to the mysterious Half-Blood Prince, and learns more about Voldemort's past through Dumbledore's memories while a dark conspiracy unfolds at Hogwarts.",
+            "storyline": "Harry becomes Dumbledore's private student, exploring Tom Riddle's past through Pensieve memories to understand the concept of Horcruxes. Draco Malfoy is given a mission by Voldemort. Dumbledore is murdered by Severus Snape, who reveals he is the Half-Blood Prince.",
+            "synopsis": "Using Slughorn's corrected memory, Harry and Dumbledore confirm the existence of Horcruxes — seven fragments of Voldemort's soul. They retrieve a locket from a sea cave, which turns out to be a fake left by R.A.B. Snape kills Dumbledore on the Astronomy Tower, fulfilling an Unbreakable Vow to Draco and his secret role as a double agent.",
+            "releaseDate": "2009-07-15",
+            "runtime": 153,
+            "status": "Released",
+            "chronologyOrder": 13,
+            "timelineYear": "1996–1997",
+            "universeEra": "The Golden Trio Era",
+            "phase": "Harry Potter Saga",
+            "saga": "Harry Potter",
+            "sagaOrder": 6,
+            "genres": [
+                "Fantasy",
+                "Drama",
+                "Mystery",
+                "Thriller"
+            ],
+            "subGenres": [
+                "Dark Coming-of-Age",
+                "Political Fantasy",
+                "Tragedy"
+            ],
+            "themes": [
+                "Betrayal",
+                "Death",
+                "Obsession",
+                "Hidden Identity",
+                "Sacrifice",
+                "Mentor Loss"
+            ],
+            "tone": [
+                "Dark",
+                "Tragic",
+                "Atmospheric",
+                "Bittersweet"
+            ],
+            "keywords": [
+                "Horcrux",
+                "Half-Blood Prince",
+                "Potions Book",
+                "Dumbledore Dies",
+                "Sectumsempra",
+                "Slughorn",
+                "Inferi",
+                "Unbreakable Vow",
+                "Astronomy Tower",
+                "Tom Riddle Memories"
+            ],
+            "language": [
+                "en"
+            ],
+            "budget": "$250,000,000",
+            "revenue": "$934,416,487",
+            "boxOffice": {
+                "domestic": "$301,959,197",
+                "international": "$632,457,290",
+                "worldwide": "$934,416,487",
+                "openingWeekend": "$77,835,727"
+            },
+            "popularityScore": 90.3,
+            "trendingScore": 81.9,
+            "fanRating": 9.0,
+            "criticRating": 84,
+            "ageRating": "PG",
+            "ratings": {
+                "imdb": 7.6,
+                "rottenTomatoes": 84,
+                "metacritic": 78,
+                "audienceScore": 81
+            },
+            "production": {
+                "studio": "Warner Bros. Pictures",
+                "distributor": "Warner Bros. Pictures",
+                "country": "United Kingdom / United States",
+                "filmingLocations": [
+                    "Cliffs of Moher, County Clare, Ireland",
+                    "Millennium Bridge, London, England",
+                    "Warner Bros. Studios, Leavesden, Hertfordshire",
+                    "Hardraw Force Waterfall, Yorkshire, England"
+                ],
+                "productionCompanies": [
+                    "Heyday Films",
+                    "Warner Bros. Pictures"
+                ]
+            },
+            "media": {
+                "poster": "https://wizarding-api.vercel.app/images/movies/harry-potter-6/poster.jpg",
+                "backdrop": "https://wizarding-api.vercel.app/images/movies/harry-potter-6/backdrop.jpg",
+                "banner": "https://wizarding-api.vercel.app/images/movies/harry-potter-6/banner.jpg",
+                "logo": "https://wizarding-api.vercel.app/images/movies/harry-potter-6/logo.png",
+                "trailer": "https://wizarding-api.vercel.app/trailers/hp6-official-trailer.mp4",
+                "teaser": "https://wizarding-api.vercel.app/trailers/hp6-teaser.mp4",
+                "gallery": [
+                    "https://wizarding-api.vercel.app/images/movies/harry-potter-6/gallery/01.jpg",
+                    "https://wizarding-api.vercel.app/images/movies/harry-potter-6/gallery/02.jpg"
+                ]
+            },
+            "streaming": {
+                "platforms": [
+                    "Max",
+                    "Peacock"
+                ],
+                "availability": "Global",
+                "subscriptionType": "Subscription"
+            },
+            "cast": [
+                {
+                    "actorId": "act-020",
+                    "name": "Daniel Radcliffe",
+                    "character": "Harry Potter",
+                    "role": "Lead"
+                },
+                {
+                    "actorId": "act-021",
+                    "name": "Emma Watson",
+                    "character": "Hermione Granger",
+                    "role": "Lead"
+                },
+                {
+                    "actorId": "act-022",
+                    "name": "Rupert Grint",
+                    "character": "Ron Weasley",
+                    "role": "Lead"
+                },
+                {
+                    "actorId": "act-025",
+                    "name": "Alan Rickman",
+                    "character": "Severus Snape",
+                    "role": "Lead"
+                },
+                {
+                    "actorId": "act-039",
+                    "name": "Michael Gambon",
+                    "character": "Albus Dumbledore",
+                    "role": "Lead"
+                },
+                {
+                    "actorId": "act-027",
+                    "name": "Tom Felton",
+                    "character": "Draco Malfoy",
+                    "role": "Supporting"
+                },
+                {
+                    "actorId": "act-048",
+                    "name": "Jim Broadbent",
+                    "character": "Horace Slughorn",
+                    "role": "Supporting"
+                },
+                {
+                    "actorId": "act-046",
+                    "name": "Helena Bonham Carter",
+                    "character": "Bellatrix Lestrange",
+                    "role": "Supporting"
+                }
+            ],
+            "directors": [
+                {
+                    "name": "David Yates",
+                    "id": "dir-001"
+                }
+            ],
+            "writers": [
+                {
+                    "name": "Steve Kloves",
+                    "id": "wri-002",
+                    "role": "Screenplay"
+                },
+                {
+                    "name": "J.K. Rowling",
+                    "id": "wri-001",
+                    "role": "Novel"
+                }
+            ],
+            "producers": [
+                {
+                    "name": "David Heyman",
+                    "id": "pro-001"
+                }
+            ],
+            "musicComposers": [
+                {
+                    "name": "Nicholas Hooper",
+                    "id": "mus-004"
+                }
+            ],
+            "cinematographers": [
+                {
+                    "name": "Bruno Delbonnel",
+                    "id": "cin-007"
+                }
+            ],
+            "editors": [
+                {
+                    "name": "Mark Day",
+                    "id": "edi-001"
+                }
+            ],
+            "awards": [
+                {
+                    "ceremony": "Academy Awards",
+                    "year": 2010,
+                    "category": "Best Cinematography",
+                    "result": "Nominated"
+                },
+                {
+                    "ceremony": "BAFTA Awards",
+                    "year": 2010,
+                    "category": "Best Special Visual Effects",
+                    "result": "Nominated"
+                }
+            ],
+            "featuredCharacters": [
+                "Harry Potter",
+                "Albus Dumbledore",
+                "Severus Snape",
+                "Draco Malfoy",
+                "Tom Riddle (Young)",
+                "Horace Slughorn",
+                "Hermione Granger",
+                "Ron Weasley"
+            ],
+            "featuredSpells": [
+                "Sectumsempra",
+                "Levicorpus",
+                "Felix Felicis (Potion)",
+                "Avada Kedavra",
+                "Protego",
+                "Expelliarmus"
+            ],
+            "featuredArtifacts": [
+                "Horcruxes (Locket, Ring, Diary Confirmed)",
+                "Half-Blood Prince's Textbook",
+                "Pensieve",
+                "Liquid Luck (Felix Felicis)",
+                "Inferi (Animated Corpses)"
+            ],
+            "featuredLocations": [
+                "Astronomy Tower",
+                "Sea Cave (Inferi Lake)",
+                "Slughorn's Classroom",
+                "Weasley's Wizard Wheezes",
+                "The Burrow"
+            ],
+            "featuredCreatures": [
+                "Inferi",
+                "Slugs (Ron Bogey Curse)",
+                "Aragog (Death)",
+                "Acromantulas"
+            ],
+            "relatedBooks": [
+                {
+                    "title": "Harry Potter and the Half-Blood Prince",
+                    "author": "J.K. Rowling",
+                    "isbn": "978-0439785969"
+                }
+            ],
+            "quotes": [
+                {
+                    "character": "Albus Dumbledore",
+                    "quote": "Dumbledore said calmly. 'Of course it is happening inside your head, Harry, but why on earth should that mean that it is not real?'"
+                },
+                {
+                    "character": "Severus Snape",
+                    "quote": "I am the Half-Blood Prince."
+                },
+                {
+                    "character": "Horace Slughorn",
+                    "quote": "I must have drunk a great deal more than I thought."
+                }
+            ],
+            "soundtracks": [
+                {
+                    "title": "In Noctem",
+                    "composer": "Nicholas Hooper",
+                    "duration": "3:22"
+                },
+                {
+                    "title": "Dumbledore's Farewell",
+                    "composer": "Nicholas Hooper",
+                    "duration": "4:40"
+                },
+                {
+                    "title": "When Ginny Kissed Harry",
+                    "composer": "Nicholas Hooper",
+                    "duration": "2:11"
+                }
+            ],
+            "watchStats": {
+                "views": 68700000,
+                "likes": 5690000,
+                "favorites": 4180000,
+                "watchlistAdds": 8300000
+            },
+            "connections": {
+                "prequel": "hp-wwcu-008",
+                "sequel": "hp-wwcu-010",
+                "spinOffs": [],
+                "relatedMovies": [
+                    "hp-wwcu-008",
+                    "hp-wwcu-010"
+                ]
+            },
+            "aiTags": [
+                "mentor-death",
+                "mystery-reveal",
+                "dark-tone",
+                "horcrux-quest",
+                "tragic-villain-backstory",
+                "fan-favorite"
+            ],
+            "emotionTags": [
+                "grief",
+                "dread",
+                "bittersweet",
+                "shock",
+                "melancholy",
+                "dark-humor"
+            ],
+            "cinematicStyle": [
+                "Desaturated Gothic",
+                "Low-Key Lighting",
+                "Melancholy Romance"
+            ],
+            "sceneCategories": [
+                "Memory Sequence",
+                "Horcrux Cave",
+                "Astronomy Tower Death",
+                "Teen Romance",
+                "Snape Revelation"
+            ],
+            "canonStatus": "Canon"
+        },
+        {
+            "id": "hp-wwcu-010",
+            "slug": "harry-potter-and-the-deathly-hallows-part-1",
+            "title": "Harry Potter and the Deathly Hallows – Part 1",
+            "originalTitle": "Harry Potter and the Deathly Hallows – Part 1",
+            "tagline": "One way… or another, it ends.",
+            "overview": "Harry, Ron, and Hermione abandon Hogwarts to hunt down Voldemort's Horcruxes, moving through a dark and dangerous wizarding world now under Death Eater control.",
+            "storyline": "With Voldemort controlling the Ministry and Hogwarts, the three friends are on the run across Britain. They search for Horcruxes, face betrayal and capture, and learn the legend of the Deathly Hallows — three objects of immense power. Ron momentarily abandons the group under the locket Horcrux's influence. The film ends with Dobby's death at Malfoy Manor.",
+            "synopsis": "Seven Potters. Rufus Scrimgeour's murder. The trio's hunt through campsites, cities, and the frozen wilderness for Horcruxes. Ron returns using the Sword of Gryffindor to destroy the locket Horcrux. Hermione is tortured by Bellatrix. Dobby is killed saving them from Malfoy Manor. Harry buries Dobby by hand.",
+            "releaseDate": "2010-11-19",
+            "runtime": 146,
+            "status": "Released",
+            "chronologyOrder": 14,
+            "timelineYear": "1997",
+            "universeEra": "The Final War Era",
+            "phase": "Harry Potter Saga",
+            "saga": "Harry Potter",
+            "sagaOrder": 7,
+            "genres": [
+                "Fantasy",
+                "Adventure",
+                "Thriller",
+                "Drama"
+            ],
+            "subGenres": [
+                "Road Movie",
+                "War Drama",
+                "Dark Fantasy"
+            ],
+            "themes": [
+                "Sacrifice",
+                "Friendship under Pressure",
+                "Death and Loss",
+                "Faith",
+                "Isolation"
+            ],
+            "tone": [
+                "Bleak",
+                "Desperate",
+                "Emotional",
+                "Tense"
+            ],
+            "keywords": [
+                "On the Run",
+                "Horcrux Hunt",
+                "Deathly Hallows",
+                "Dobby Death",
+                "Malfoy Manor",
+                "Locket Horcrux",
+                "Voldemort Ministry",
+                "Seven Potters",
+                "R.A.B."
+            ],
+            "language": [
+                "en"
+            ],
+            "budget": "$125,000,000",
+            "revenue": "$976,900,000",
+            "boxOffice": {
+                "domestic": "$295,983,305",
+                "international": "$680,916,695",
+                "worldwide": "$976,900,000",
+                "openingWeekend": "$125,017,372"
+            },
+            "popularityScore": 92.7,
+            "trendingScore": 85.4,
+            "fanRating": 9.2,
+            "criticRating": 78,
+            "ageRating": "PG-13",
+            "ratings": {
+                "imdb": 7.7,
+                "rottenTomatoes": 78,
+                "metacritic": 65,
+                "audienceScore": 81
+            },
+            "production": {
+                "studio": "Warner Bros. Pictures",
+                "distributor": "Warner Bros. Pictures",
+                "country": "United Kingdom / United States",
+                "filmingLocations": [
+                    "Dartmoor National Park, Devon, England",
+                    "Swinley Forest, Berkshire, England",
+                    "Wells, Somerset, England",
+                    "Freshwater West Beach, Pembrokeshire, Wales",
+                    "Warner Bros. Studios, Leavesden, Hertfordshire"
+                ],
+                "productionCompanies": [
+                    "Heyday Films",
+                    "Warner Bros. Pictures"
+                ]
+            },
+            "media": {
+                "poster": "https://wizarding-api.vercel.app/images/movies/harry-potter-7a/poster.jpg",
+                "backdrop": "https://wizarding-api.vercel.app/images/movies/harry-potter-7a/backdrop.jpg",
+                "banner": "https://wizarding-api.vercel.app/images/movies/harry-potter-7a/banner.jpg",
+                "logo": "https://wizarding-api.vercel.app/images/movies/harry-potter-7a/logo.png",
+                "trailer": "https://wizarding-api.vercel.app/trailers/hp7a-official-trailer.mp4",
+                "teaser": "https://wizarding-api.vercel.app/trailers/hp7a-teaser.mp4",
+                "gallery": [
+                    "https://wizarding-api.vercel.app/images/movies/harry-potter-7a/gallery/01.jpg",
+                    "https://wizarding-api.vercel.app/images/movies/harry-potter-7a/gallery/02.jpg"
+                ]
+            },
+            "streaming": {
+                "platforms": [
+                    "Max",
+                    "Peacock"
+                ],
+                "availability": "Global",
+                "subscriptionType": "Subscription"
+            },
+            "cast": [
+                {
+                    "actorId": "act-020",
+                    "name": "Daniel Radcliffe",
+                    "character": "Harry Potter",
+                    "role": "Lead"
+                },
+                {
+                    "actorId": "act-021",
+                    "name": "Emma Watson",
+                    "character": "Hermione Granger",
+                    "role": "Lead"
+                },
+                {
+                    "actorId": "act-022",
+                    "name": "Rupert Grint",
+                    "character": "Ron Weasley",
+                    "role": "Lead"
+                },
+                {
+                    "actorId": "act-042",
+                    "name": "Ralph Fiennes",
+                    "character": "Lord Voldemort",
+                    "role": "Supporting"
+                },
+                {
+                    "actorId": "act-046",
+                    "name": "Helena Bonham Carter",
+                    "character": "Bellatrix Lestrange",
+                    "role": "Supporting"
+                },
+                {
+                    "actorId": "act-031",
+                    "name": "Jason Isaacs",
+                    "character": "Lucius Malfoy",
+                    "role": "Supporting"
+                },
+                {
+                    "actorId": "act-034",
+                    "name": "Toby Jones",
+                    "character": "Dobby",
+                    "role": "Supporting"
+                },
+                {
+                    "actorId": "act-025",
+                    "name": "Alan Rickman",
+                    "character": "Severus Snape",
+                    "role": "Supporting"
+                }
+            ],
+            "directors": [
+                {
+                    "name": "David Yates",
+                    "id": "dir-001"
+                }
+            ],
+            "writers": [
+                {
+                    "name": "Steve Kloves",
+                    "id": "wri-002",
+                    "role": "Screenplay"
+                },
+                {
+                    "name": "J.K. Rowling",
+                    "id": "wri-001",
+                    "role": "Novel"
+                }
+            ],
+            "producers": [
+                {
+                    "name": "David Heyman",
+                    "id": "pro-001"
+                }
+            ],
+            "musicComposers": [
+                {
+                    "name": "Alexandre Desplat",
+                    "id": "mus-005"
+                }
+            ],
+            "cinematographers": [
+                {
+                    "name": "Eduardo Serra",
+                    "id": "cin-008"
+                }
+            ],
+            "editors": [
+                {
+                    "name": "Mark Day",
+                    "id": "edi-001"
+                }
+            ],
+            "awards": [
+                {
+                    "ceremony": "Academy Awards",
+                    "year": 2011,
+                    "category": "Best Art Direction",
+                    "result": "Nominated"
+                },
+                {
+                    "ceremony": "Academy Awards",
+                    "year": 2011,
+                    "category": "Best Visual Effects",
+                    "result": "Nominated"
+                }
+            ],
+            "featuredCharacters": [
+                "Harry Potter",
+                "Hermione Granger",
+                "Ron Weasley",
+                "Lord Voldemort",
+                "Bellatrix Lestrange",
+                "Dobby",
+                "Xenophilius Lovegood",
+                "Bathilda Bagshot"
+            ],
+            "featuredSpells": [
+                "Avada Kedavra",
+                "Protego",
+                "Expelliarmus",
+                "Obliviate",
+                "Taboo (Dark Magic)",
+                "Stupefy"
+            ],
+            "featuredArtifacts": [
+                "Locket Horcrux",
+                "Sword of Gryffindor",
+                "Three Deathly Hallows",
+                "Voldemort's Wand",
+                "Elder Wand (Sought)"
+            ],
+            "featuredLocations": [
+                "Malfoy Manor",
+                "Ministry of Magic (Infiltrated)",
+                "Godric's Hollow",
+                "Shell Cottage",
+                "Dartmoor Wilderness"
+            ],
+            "featuredCreatures": [
+                "Nagini (Snake/Horcrux)",
+                "Voldemort's Eagle Owl",
+                "Inferi",
+                "Dobby (House-Elf)"
+            ],
+            "relatedBooks": [
+                {
+                    "title": "Harry Potter and the Deathly Hallows",
+                    "author": "J.K. Rowling",
+                    "isbn": "978-0545010221"
+                }
+            ],
+            "quotes": [
+                {
+                    "character": "Dobby",
+                    "quote": "Dobby is happy to be with his friend, Harry Potter."
+                },
+                {
+                    "character": "Harry Potter",
+                    "quote": "We'll go together."
+                },
+                {
+                    "character": "Hermione Granger",
+                    "quote": "We're coming with you."
+                }
+            ],
+            "soundtracks": [
+                {
+                    "title": "Obliviate",
+                    "composer": "Alexandre Desplat",
+                    "duration": "3:19"
+                },
+                {
+                    "title": "Dobby",
+                    "composer": "Alexandre Desplat",
+                    "duration": "3:58"
+                },
+                {
+                    "title": "Snape to Malfoy Manor",
+                    "composer": "Alexandre Desplat",
+                    "duration": "2:13"
+                }
+            ],
+            "watchStats": {
+                "views": 74100000,
+                "likes": 6420000,
+                "favorites": 5100000,
+                "watchlistAdds": 9400000
+            },
+            "connections": {
+                "prequel": "hp-wwcu-009",
+                "sequel": "hp-wwcu-011",
+                "spinOffs": [],
+                "relatedMovies": [
+                    "hp-wwcu-009",
+                    "hp-wwcu-011"
+                ]
+            },
+            "aiTags": [
+                "road-movie",
+                "survival",
+                "dark-war-epic",
+                "emotional-depth",
+                "death-and-loss",
+                "war-drama"
+            ],
+            "emotionTags": [
+                "despair",
+                "grief",
+                "determination",
+                "loneliness",
+                "heartbreak",
+                "courage"
+            ],
+            "cinematicStyle": [
+                "Handheld Documentary Feel",
+                "Bleak Landscapes",
+                "Intimate Close-Ups"
+            ],
+            "sceneCategories": [
+                "Dobby Death",
+                "Seven Potters Battle",
+                "Horcrux Destruction",
+                "Malfoy Manor Escape",
+                "Deathly Hallows Lore"
+            ],
+            "canonStatus": "Canon"
+        },
+        {
+            "id": "hp-wwcu-011",
+            "slug": "harry-potter-and-the-deathly-hallows-part-2",
+            "title": "Harry Potter and the Deathly Hallows – Part 2",
+            "originalTitle": "Harry Potter and the Deathly Hallows – Part 2",
+            "tagline": "It all ends.",
+            "overview": "The epic conclusion of the Harry Potter saga. Harry Potter and his allies make a final stand against Voldemort at the Battle of Hogwarts.",
+            "storyline": "Harry, Ron, and Hermione race to destroy the remaining Horcruxes — breaking into Gringotts, returning to Hogwarts, uncovering Snape's true devotion to Lily Potter, and ultimately learning that Harry himself is a Horcrux. Harry sacrifices himself, survives through the protection of his own blood in Voldemort, and returns to defeat the Dark Lord once and for all.",
+            "synopsis": "The Battle of Hogwarts claims the lives of Fred Weasley, Tonks, Lupin, and many others. Snape's memories reveal he secretly protected Harry throughout his life out of love for Lily. Harry willingly walks to his death and returns from a Limbo state due to Voldemort's use of his blood. The Elder Wand refuses to kill its true master. Voldemort is finally destroyed. The epilogue — 19 years later — shows Harry, Ron, Hermione, and their children seeing the next generation off to Hogwarts.",
+            "releaseDate": "2011-07-15",
+            "runtime": 130,
+            "status": "Released",
+            "chronologyOrder": 15,
+            "timelineYear": "1998",
+            "universeEra": "The Final War Era",
+            "phase": "Harry Potter Saga",
+            "saga": "Harry Potter",
+            "sagaOrder": 8,
+            "genres": [
+                "Fantasy",
+                "Action",
+                "Drama",
+                "Adventure"
+            ],
+            "subGenres": [
+                "War Epic",
+                "Tragic Finale",
+                "Dark Fantasy"
+            ],
+            "themes": [
+                "Self-Sacrifice",
+                "Death",
+                "Love Conquers All",
+                "True Identity",
+                "Legacy",
+                "Redemption"
+            ],
+            "tone": [
+                "Epic",
+                "Tragic",
+                "Triumphant",
+                "Emotional",
+                "Conclusive"
+            ],
+            "keywords": [
+                "Battle of Hogwarts",
+                "Voldemort Death",
+                "Snape Memories",
+                "Elder Wand",
+                "Harry's Death",
+                "Horcrux Destruction",
+                "Gringotts Break-In",
+                "Epilogue",
+                "The Prince's Tale",
+                "19 Years Later"
+            ],
+            "language": [
+                "en"
+            ],
+            "budget": "$125,000,000",
+            "revenue": "$1,341,693,157",
+            "boxOffice": {
+                "domestic": "$381,011,219",
+                "international": "$960,681,938",
+                "worldwide": "$1,341,693,157",
+                "openingWeekend": "$169,189,427"
+            },
+            "popularityScore": 99.4,
+            "trendingScore": 96.8,
+            "fanRating": 9.8,
+            "criticRating": 96,
+            "ageRating": "PG-13",
+            "ratings": {
+                "imdb": 8.1,
+                "rottenTomatoes": 96,
+                "metacritic": 87,
+                "audienceScore": 90
+            },
+            "production": {
+                "studio": "Warner Bros. Pictures",
+                "distributor": "Warner Bros. Pictures",
+                "country": "United Kingdom / United States",
+                "filmingLocations": [
+                    "Warner Bros. Studios, Leavesden, Hertfordshire",
+                    "Gringotts Vaults (Studio Set), Leavesden",
+                    "Freshwater West Beach, Pembrokeshire, Wales",
+                    "Goathland Station, North Yorkshire, England"
+                ],
+                "productionCompanies": [
+                    "Heyday Films",
+                    "Warner Bros. Pictures"
+                ]
+            },
+            "media": {
+                "poster": "https://wizarding-api.vercel.app/images/movies/harry-potter-7b/poster.jpg",
+                "backdrop": "https://wizarding-api.vercel.app/images/movies/harry-potter-7b/backdrop.jpg",
+                "banner": "https://wizarding-api.vercel.app/images/movies/harry-potter-7b/banner.jpg",
+                "logo": "https://wizarding-api.vercel.app/images/movies/harry-potter-7b/logo.png",
+                "trailer": "https://wizarding-api.vercel.app/trailers/hp7b-official-trailer.mp4",
+                "teaser": "https://wizarding-api.vercel.app/trailers/hp7b-teaser.mp4",
+                "gallery": [
+                    "https://wizarding-api.vercel.app/images/movies/harry-potter-7b/gallery/01.jpg",
+                    "https://wizarding-api.vercel.app/images/movies/harry-potter-7b/gallery/02.jpg",
+                    "https://wizarding-api.vercel.app/images/movies/harry-potter-7b/gallery/03.jpg"
+                ]
+            },
+            "streaming": {
+                "platforms": [
+                    "Max",
+                    "Peacock"
+                ],
+                "availability": "Global",
+                "subscriptionType": "Subscription"
+            },
+            "cast": [
+                {
+                    "actorId": "act-020",
+                    "name": "Daniel Radcliffe",
+                    "character": "Harry Potter",
+                    "role": "Lead"
+                },
+                {
+                    "actorId": "act-021",
+                    "name": "Emma Watson",
+                    "character": "Hermione Granger",
+                    "role": "Lead"
+                },
+                {
+                    "actorId": "act-022",
+                    "name": "Rupert Grint",
+                    "character": "Ron Weasley",
+                    "role": "Lead"
+                },
+                {
+                    "actorId": "act-042",
+                    "name": "Ralph Fiennes",
+                    "character": "Lord Voldemort",
+                    "role": "Lead"
+                },
+                {
+                    "actorId": "act-025",
+                    "name": "Alan Rickman",
+                    "character": "Severus Snape",
+                    "role": "Lead"
+                },
+                {
+                    "actorId": "act-039",
+                    "name": "Michael Gambon",
+                    "character": "Albus Dumbledore",
+                    "role": "Supporting"
+                },
+                {
+                    "actorId": "act-046",
+                    "name": "Helena Bonham Carter",
+                    "character": "Bellatrix Lestrange",
+                    "role": "Supporting"
+                },
+                {
+                    "actorId": "act-024",
+                    "name": "Maggie Smith",
+                    "character": "Minerva McGonagall",
+                    "role": "Supporting"
+                },
+                {
+                    "actorId": "act-049",
+                    "name": "Ciarán Hinds",
+                    "character": "Aberforth Dumbledore",
+                    "role": "Supporting"
+                },
+                {
+                    "actorId": "act-047",
+                    "name": "Evanna Lynch",
+                    "character": "Luna Lovegood",
+                    "role": "Supporting"
+                }
+            ],
+            "directors": [
+                {
+                    "name": "David Yates",
+                    "id": "dir-001"
+                }
+            ],
+            "writers": [
+                {
+                    "name": "Steve Kloves",
+                    "id": "wri-002",
+                    "role": "Screenplay"
+                },
+                {
+                    "name": "J.K. Rowling",
+                    "id": "wri-001",
+                    "role": "Novel"
+                }
+            ],
+            "producers": [
+                {
+                    "name": "David Heyman",
+                    "id": "pro-001"
+                }
+            ],
+            "musicComposers": [
+                {
+                    "name": "Alexandre Desplat",
+                    "id": "mus-005"
+                }
+            ],
+            "cinematographers": [
+                {
+                    "name": "Eduardo Serra",
+                    "id": "cin-008"
+                }
+            ],
+            "editors": [
+                {
+                    "name": "Mark Day",
+                    "id": "edi-001"
+                }
+            ],
+            "awards": [
+                {
+                    "ceremony": "Academy Awards",
+                    "year": 2012,
+                    "category": "Best Visual Effects",
+                    "result": "Nominated"
+                },
+                {
+                    "ceremony": "Academy Awards",
+                    "year": 2012,
+                    "category": "Best Makeup",
+                    "result": "Nominated"
+                },
+                {
+                    "ceremony": "Saturn Awards",
+                    "year": 2012,
+                    "category": "Best Fantasy Film",
+                    "result": "Won"
+                },
+                {
+                    "ceremony": "Empire Awards",
+                    "year": 2012,
+                    "category": "Best Film",
+                    "result": "Won"
+                }
+            ],
+            "featuredCharacters": [
+                "Harry Potter",
+                "Lord Voldemort",
+                "Severus Snape",
+                "Hermione Granger",
+                "Ron Weasley",
+                "Neville Longbottom",
+                "Minerva McGonagall",
+                "Bellatrix Lestrange",
+                "Albus Dumbledore"
+            ],
+            "featuredSpells": [
+                "Avada Kedavra",
+                "Expelliarmus",
+                "Protego",
+                "Neville's Sword Swing",
+                "Fiendfyre",
+                "Finite Incantatem"
+            ],
+            "featuredArtifacts": [
+                "Elder Wand",
+                "Diadem of Ravenclaw (Horcrux)",
+                "Nagini (Horcrux)",
+                "Resurrection Stone",
+                "Invisibility Cloak",
+                "Sword of Gryffindor"
+            ],
+            "featuredLocations": [
+                "Battle of Hogwarts Grounds",
+                "Gringotts Bank Vaults",
+                "Room of Requirement",
+                "Shrieking Shack",
+                "King's Cross (Limbo)",
+                "Hogwarts Great Hall"
+            ],
+            "featuredCreatures": [
+                "Nagini",
+                "Gringotts Dragon",
+                "Neville's Sword Strike (vs Nagini)",
+                "Hogwarts Castle Defenders"
+            ],
+            "relatedBooks": [
+                {
+                    "title": "Harry Potter and the Deathly Hallows",
+                    "author": "J.K. Rowling",
+                    "isbn": "978-0545010221"
+                }
+            ],
+            "quotes": [
+                {
+                    "character": "Albus Dumbledore",
+                    "quote": "Of course it is happening inside your head, Harry, but why on earth should that mean that it is not real?"
+                },
+                {
+                    "character": "Severus Snape",
+                    "quote": "Always."
+                },
+                {
+                    "character": "Neville Longbottom",
+                    "quote": "I'd like to say something. It doesn't matter that Harry's gone. People die every day. Friends, family. Yeah, we still lost Harry tonight. He's still with us, in here."
+                },
+                {
+                    "character": "Lord Voldemort",
+                    "quote": "Why do you live?"
+                },
+                {
+                    "character": "Harry Potter",
+                    "quote": "I've had enough trouble for a lifetime."
+                }
+            ],
+            "soundtracks": [
+                {
+                    "title": "Lily's Theme",
+                    "composer": "Alexandre Desplat",
+                    "duration": "3:26"
+                },
+                {
+                    "title": "Voldemort's End",
+                    "composer": "Alexandre Desplat",
+                    "duration": "5:01"
+                },
+                {
+                    "title": "Snape's Demise",
+                    "composer": "Alexandre Desplat",
+                    "duration": "2:44"
+                },
+                {
+                    "title": "A New Beginning",
+                    "composer": "Alexandre Desplat",
+                    "duration": "4:12"
+                },
+                {
+                    "title": "Harry's Sacrifice",
+                    "composer": "Alexandre Desplat",
+                    "duration": "6:33"
+                }
+            ],
+            "watchStats": {
+                "views": 102600000,
+                "likes": 9870000,
+                "favorites": 8200000,
+                "watchlistAdds": 14500000
+            },
+            "connections": {
+                "prequel": "hp-wwcu-010",
+                "sequel": null,
+                "spinOffs": [
+                    "hp-wwcu-001"
+                ],
+                "relatedMovies": [
+                    "hp-wwcu-010",
+                    "hp-wwcu-001"
+                ]
+            },
+            "aiTags": [
+                "epic-finale",
+                "war-movie",
+                "emotionally-devastating",
+                "must-watch",
+                "saga-conclusion",
+                "villain-death",
+                "sacrifice",
+                "rewatch-worthy"
+            ],
+            "emotionTags": [
+                "devastation",
+                "triumph",
+                "catharsis",
+                "grief",
+                "awe",
+                "closure"
+            ],
+            "cinematicStyle": [
+                "War Epic",
+                "Grand Scale Action",
+                "Intimate Emotional Close-Ups"
+            ],
+            "sceneCategories": [
+                "Battle of Hogwarts",
+                "Snape's Memories",
+                "Limbo Scene",
+                "Voldemort's Defeat",
+                "Epilogue"
+            ],
+            "canonStatus": "Canon"
+        }
+    ]
+}
