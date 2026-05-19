@@ -1,0 +1,11 @@
+{
+    "star": {
+        "name": "Sun",
+        "type": "G-Type Main-Sequence (G2V)",
+        "mass": "1.989 × 10^30 kg",
+        "radius": "696,340 km",
+        "temperature": "5,500°C",
+        "image": "https://images-assets.nasa.gov/image/PIA03149/PIA03149~orig.jpg",
+        "texture": "https://www.solarsystemscope.com/textures/download/2k_sun.jpg"
+    }
+}
